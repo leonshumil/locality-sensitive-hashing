@@ -1,0 +1,32 @@
+{
+  "_comment":  "Paths are used in test_local.py. Update these if your data files are in a different location.",
+  "data": {  
+    "json_file":    "tmdb_data.json",   
+    "vectors_file": "tmdb_vectors.npy"
+  },
+
+  "model": {
+    "name": "all-MiniLM-L6-v2",
+    "_comment": "do not read this from the settings file, you can simply import the model in your code and use it directly."
+  },
+
+  "lsh": {
+    "num_tables":      20,
+    "num_bits":         8,
+    "hyperplane_seed": 42
+  },
+
+  "search": {
+    "top_k": 5
+  },
+
+  "comparison": {
+    "default_queries": [
+      "romance movie with julia roberts",
+      "thriller directed by christopher nolan",
+      "a suspenseful psychological thriller where the main character slowly discovers a dark secret about their past",
+      "a science fiction film set in outer space involving space exploration and encounters with alien life",
+      "animated movie for kids with animals"
+    ]
+  }
+}
