@@ -5,7 +5,7 @@
 **High-Level Design**
 - **Diagram:** Replace the placeholder image `LSH-architecture.png` with your diagram showing components and data flow.
 
-  ![LSH Architecture](LSH-architecture.png)
+  ![LSH Architecture](LSH-arcitecture.png)
 
 - **Components (summary):**
   - **Encoder:** converts free-text queries into fixed-length vectors (embeddings).
