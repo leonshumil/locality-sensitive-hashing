@@ -102,16 +102,40 @@ async function loadDemoResults(query, k) {
 }
 
 function pickBestDemo(query, demos) {
-  // Count how many words from the user query appear (as substrings) in each demo query.
-  // Substring matching lets "sci" match "science", "thriller" match "thriller", etc.
-  const qWords = query.toLowerCase().split(/\W+/).filter(w => w.length > 1);
-  let best = demos[0], bestScore = -1;
+  const q = query.toLowerCase();
+  const qWords = q.split(/\W+/).filter(w => w.length > 2);
+
+  // Pass 1: word-level substring overlap (e.g. "sci" matches "science").
+  let best = null, bestScore = 0;
   for (const demo of demos) {
     const demoText = demo.query.toLowerCase();
     const score = qWords.filter(w => demoText.includes(w)).length;
     if (score > bestScore) { bestScore = score; best = demo; }
   }
-  return best;
+  if (best) return best;
+
+  // Pass 2 (no words matched): character bigram overlap against each demo.
+  const qBigrams = bigrams(q);
+  let bigramBest = null, bigramBestScore = -1;
+  for (const demo of demos) {
+    const score = bigramOverlap(qBigrams, bigrams(demo.query.toLowerCase()));
+    if (score > bigramBestScore) { bigramBestScore = score; bigramBest = demo; }
+  }
+  if (bigramBestScore > 0) return bigramBest;
+
+  // Pass 3 (complete miss): round-robin so results at least vary.
+  return demos[query.length % demos.length];
+}
+
+function bigrams(str) {
+  const out = [];
+  for (let i = 0; i < str.length - 1; i++) out.push(str.slice(i, i + 2));
+  return out;
+}
+
+function bigramOverlap(aBigrams, bBigrams) {
+  const bSet = new Set(bBigrams);
+  return aBigrams.filter(bg => bSet.has(bg)).length;
 }
 
 // ── TMDB POSTER ────────────────────────────────────────────────────────────
@@ -155,8 +179,9 @@ async function renderResults(results, query, isDemo, matchedQuery = '') {
 
   showResults();
   const gridTop      = resultsGrid.getBoundingClientRect().top + window.scrollY;
-  const centerOffset = window.innerHeight / 2 - resultsGrid.offsetHeight / 2;
-  window.scrollTo({ top: gridTop - centerOffset, behavior: 'smooth' });
+  const centerOffset = (window.innerHeight - resultsGrid.offsetHeight) / 2;
+  const target       = Math.max(0, gridTop - centerOffset);
+  window.scrollTo({ top: target, behavior: 'smooth' });
 
   // Animate score bars after paint
   requestAnimationFrame(() => {
