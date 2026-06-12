@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineMatch — Semantic Movie Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+  <header class="hero">
+    <div class="hero-glow hero-glow--left"  aria-hidden="true"></div>
+    <div class="hero-glow hero-glow--right" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+      <div class="wordmark">
+        <svg class="wordmark-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        CineMatch
+      </div>
+
+      <h1 class="hero-headline">
+        Find movies by<br />
+        <span class="hero-accent">meaning, not keywords</span>
+      </h1>
+      <p class="hero-sub">
+        Neural embeddings + Locality‑Sensitive Hashing over 4,803 films
+      </p>
+
+      <!-- Search box -->
+      <div class="search-wrap">
+        <div class="search-row">
+          <div class="search-field">
+            <svg class="search-field-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="8.5" cy="8.5" r="5.75" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <input
+              id="query-input"
+              type="text"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="Describe a movie… e.g. "a mind-bending sci-fi thriller in outer space""
+            />
+          </div>
+          <button id="search-btn" class="btn-primary" aria-label="Search">
+            Search
+          </button>
+        </div>
+
+        <div class="search-controls">
+          <label class="k-label" for="k-slider">
+            Top&nbsp;<span id="k-val">5</span>&nbsp;results
+          </label>
+          <input id="k-slider" type="range" min="1" max="10" value="5" aria-label="Number of results" />
+        </div>
+      </div>
+
+      <!-- Demo pills -->
+      <div class="demo-pills" aria-label="Example queries">
+        <span class="demo-pills-label">Try:</span>
+        <button class="demo-pill">romance with Julia Roberts</button>
+        <button class="demo-pill">psychological thriller dark secret</button>
+        <button class="demo-pill">sci-fi space exploration aliens</button>
+        <button class="demo-pill">animated kids movie with animals</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main content ──────────────────────────────────────────────────────── -->
+  <main>
+    <div class="container">
+
+      <!-- Spinner -->
+      <div id="spinner" class="spinner hidden" role="status" aria-label="Searching">
+        <div class="spinner-ring"></div>
+        <p class="spinner-text">Encoding your query…</p>
+      </div>
+
+      <!-- Error -->
+      <div id="error-section" class="error-card hidden" role="alert">
+        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="10" cy="10" r="8.25" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M10 6v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="10" cy="13.5" r="0.75" fill="currentColor"/>
+        </svg>
+        <p id="error-msg">Something went wrong.</p>
+      </div>
+
+      <!-- Results -->
+      <section id="results-section" class="hidden" aria-live="polite">
+        <div class="results-header">
+          <div>
+            <h2 class="results-title">Results for <em id="results-query"></em></h2>
+          </div>
+          <div id="mode-badge"></div>
+        </div>
+        <div id="results-grid" class="results-grid"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── How It Works ──────────────────────────────────────────────────────── -->
+  <section class="how-section">
+    <div class="container">
+      <div class="how-header">
+        <p class="how-eyebrow">Under the hood</p>
+        <h2 class="how-title">How it works</h2>
+        <p class="how-desc">
+          Traditional keyword search matches exact words. CineMatch understands
+          <em>meaning</em> — so "heartwarming story about a father and son" finds
+          <em>The Lion King</em> even without those words in its synopsis.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li class="step">
+          <div class="step-num" aria-hidden="true">01</div>
+          <div class="step-body">
+            <h3>Embed</h3>
+            <p>
+              Your query is encoded into a 384‑dimensional vector by
+              <strong>all‑MiniLM‑L6‑v2</strong>, a compact sentence‑transformer
+              trained on hundreds of millions of text pairs. Semantic relationships
+              become directions in this space: "space odyssey" and "interstellar
+              voyage" land near each other, even with no shared words.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num" aria-hidden="true">02</div>
+          <div class="step-body">
+            <h3>Hash</h3>
+            <p>
+              The vector is projected through <strong>20 random hyperplanes</strong>
+              (8 bits each). Each projection produces a short binary key — similar
+              vectors collide into the same bucket across multiple hash tables,
+              grouping candidate movies without looking at every embedding.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num" aria-hidden="true">03</div>
+          <div class="step-body">
+            <h3>Retrieve</h3>
+            <p>
+              Only movies sharing at least one bucket with your query become
+              candidates — typically under 1 % of the 4,803‑film index. LSH
+              trades a small recall penalty for a <strong>massive speed-up</strong>
+              over exhaustive nearest‑neighbor search.
+            </p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num" aria-hidden="true">04</div>
+          <div class="step-body">
+            <h3>Rank</h3>
+            <p>
+              Every candidate is precisely re‑scored by
+              <strong>cosine similarity</strong> between its precomputed embedding
+              and your query vector. The top‑K films ranked by that score are
+              what you see — exact, not approximate.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="wordmark wordmark--sm">
+        <svg class="wordmark-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        CineMatch
+      </span>
+      <p class="footer-note">
+        Movie data from <a href="https://www.themoviedb.org" target="_blank" rel="noopener">TMDB</a>.
+        Powered by LSH &amp; sentence embeddings.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+[
+  {
+    "query": "romance movie with julia roberts",
+    "results": [
+      {
+        "movie_id": 114,
+        "title": "Pretty Woman",
+        "year": "1990",
+        "genres": "Romance Comedy",
+        "director": "Garry Marshall",
+        "cast": "Julia Roberts Richard Gere Ralph Bellamy Jason Alexander Héctor Elizondo",
+        "overview": "When millionaire wheeler-dealer Edward Lewis enters a business contract with Hollywood hooker Vivian Ward, he loses his heart in the bargain in this charming romantic comedy. After Edward hires Vivian as his date for a week and gives her a Cinderella makeover, she returns the favor by mellowing the hardnosed tycoon's outlook.",
+        "score": 0.8214
+      },
+      {
+        "movie_id": 509,
+        "title": "Notting Hill",
+        "year": "1999",
+        "genres": "Romance Comedy Drama",
+        "director": "Roger Michell",
+        "cast": "Julia Roberts Hugh Grant Gina McKee Tim McInnerny Rhys Ifans",
+        "overview": "The British comedy from director Roger Michell tells the love story between a famous actress and a simple book seller from London. A look into the attempt for famous people to have a personal and private life and the ramifications that follow.",
+        "score": 0.7841
+      },
+      {
+        "movie_id": 8874,
+        "title": "My Best Friend's Wedding",
+        "year": "1997",
+        "genres": "Comedy Romance",
+        "director": "P.J. Hogan",
+        "cast": "Julia Roberts Dermot Mulroney Cameron Diaz Rupert Everett Philip Bosco",
+        "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael — and sets out to sabotage the wedding.",
+        "score": 0.7512
+      },
+      {
+        "movie_id": 462,
+        "title": "Erin Brockovich",
+        "year": "2000",
+        "genres": "Drama",
+        "director": "Steven Soderbergh",
+        "cast": "Julia Roberts Albert Finney Aaron Eckhart Marg Helgenberger Cherry Jones",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "score": 0.6328
+      },
+      {
+        "movie_id": 50646,
+        "title": "Crazy, Stupid, Love.",
+        "year": "2011",
+        "genres": "Comedy Drama Romance",
+        "director": "Glenn Ficarra",
+        "cast": "Steve Carell Julianne Moore Ryan Gosling Emma Stone Marisa Tomei",
+        "overview": "Cal Weaver is living the American dream until he learns that Emily has been unfaithful and wants a divorce. Over 40 and suddenly single, Cal is adrift in the fickle world of dating. Enter Jacob Palmer, a self-styled player who takes Cal under his wing.",
+        "score": 0.5983
+      }
+    ]
+  },
+  {
+    "query": "psychological thriller where the main character discovers a dark secret about their past",
+    "results": [
+      {
+        "movie_id": 11324,
+        "title": "Shutter Island",
+        "year": "2010",
+        "genres": "Drama Thriller Mystery",
+        "director": "Martin Scorsese",
+        "cast": "Leonardo DiCaprio Mark Ruffalo Ben Kingsley Emily Mortimer Michelle Williams",
+        "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and a mysterious doctor who seems to know more than he lets on.",
+        "score": 0.8472
+      },
+      {
+        "movie_id": 550,
+        "title": "Fight Club",
+        "year": "1999",
+        "genres": "Drama",
+        "director": "David Fincher",
+        "cast": "Edward Norton Brad Pitt Meat Loaf Jared Leto Helena Bonham Carter",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "score": 0.8119
+      },
+      {
+        "movie_id": 44214,
+        "title": "Black Swan",
+        "year": "2010",
+        "genres": "Drama Thriller",
+        "director": "Darren Aronofsky",
+        "cast": "Natalie Portman Mila Kunis Vincent Cassel Barbara Hershey Winona Ryder",
+        "overview": "A ballet dancer wins the lead in Swan Lake and is perfect for the role of the delicate White Swan — but slowly loses her mind as she becomes more and more like Odile, the Black Swan, blurring the line between obsession and identity.",
+        "score": 0.7893
+      },
+      {
+        "movie_id": 210577,
+        "title": "Gone Girl",
+        "year": "2014",
+        "genres": "Mystery Thriller Drama",
+        "director": "David Fincher",
+        "cast": "Ben Affleck Rosamund Pike Carrie Coon Neil Patrick Harris Tyler Perry",
+        "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent. Secrets unravel and nothing is as it seems.",
+        "score": 0.7614
+      },
+      {
+        "movie_id": 27205,
+        "title": "Inception",
+        "year": "2010",
+        "genres": "Action Thriller Science Fiction Mystery Adventure",
+        "director": "Christopher Nolan",
+        "cast": "Leonardo DiCaprio Joseph Gordon-Levitt Elliot Page Tom Hardy Ken Watanabe",
+        "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets, is offered a chance to regain his old life as payment for a task considered to be impossible: inception, the implantation of another person's idea into a target's subconscious.",
+        "score": 0.7341
+      }
+    ]
+  },
+  {
+    "query": "science fiction film set in outer space with aliens and space exploration",
+    "results": [
+      {
+        "movie_id": 49047,
+        "title": "Gravity",
+        "year": "2013",
+        "genres": "Science Fiction Thriller Drama",
+        "director": "Alfonso Cuarón",
+        "cast": "Sandra Bullock George Clooney Ed Harris Orto Ignatiussen Phaldut Sharma",
+        "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, and veteran astronaut Matt Kowalsky face disaster when the Shuttle is destroyed, leaving them tethered to nothing but each other and spiraling into the blackness of space.",
+        "score": 0.8873
+      },
+      {
+        "movie_id": 157336,
+        "title": "Interstellar",
+        "year": "2014",
+        "genres": "Adventure Drama Science Fiction",
+        "director": "Christopher Nolan",
+        "cast": "Matthew McConaughey Jessica Chastain Anne Hathaway Michael Caine Casey Affleck",
+        "overview": "Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+        "score": 0.8714
+      },
+      {
+        "movie_id": 286217,
+        "title": "The Martian",
+        "year": "2015",
+        "genres": "Drama Adventure Science Fiction",
+        "director": "Ridley Scott",
+        "cast": "Matt Damon Jessica Chastain Kristen Wiig Jeff Daniels Michael Peña",
+        "overview": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. With only meager supplies, he must draw upon his ingenuity and spirit to find a way to signal Earth that he is alive.",
+        "score": 0.8562
+      },
+      {
+        "movie_id": 19995,
+        "title": "Avatar",
+        "year": "2009",
+        "genres": "Action Adventure Fantasy Science Fiction",
+        "director": "James Cameron",
+        "cast": "Sam Worthington Zoe Saldana Sigourney Weaver Stephen Lang Michelle Rodriguez",
+        "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+        "score": 0.8291
+      },
+      {
+        "movie_id": 49529,
+        "title": "John Carter",
+        "year": "2012",
+        "genres": "Action Adventure Science Fiction",
+        "director": "Andrew Stanton",
+        "cast": "Taylor Kitsch Lynn Collins Samantha Morton Willem Dafoe Thomas Haden Church",
+        "overview": "A war-weary former military captain is inexplicably transported to the mysterious planet of Barsoom (Mars) and reluctantly becomes embroiled in an epic conflict between alien civilizations on a world on the brink of collapse.",
+        "score": 0.7034
+      }
+    ]
+  },
+  {
+    "query": "animated movie for kids with animals",
+    "results": [
+      {
+        "movie_id": 12,
+        "title": "Finding Nemo",
+        "year": "2003",
+        "genres": "Animation Family",
+        "director": "Andrew Stanton",
+        "cast": "Albert Brooks Ellen DeGeneres Alexander Gould Willem Dafoe Brad Garrett",
+        "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring him home — meeting vegetarian sharks, surfer dude turtles, and hungry seagulls along the way.",
+        "score": 0.9124
+      },
+      {
+        "movie_id": 8587,
+        "title": "The Lion King",
+        "year": "1994",
+        "genres": "Family Animation Drama",
+        "director": "Roger Allers",
+        "cast": "Jonathan Taylor Thomas Matthew Broderick James Earl Jones Jeremy Irons Moira Kelly",
+        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it. When tragedy strikes, Simba flees and must one day return to face his destiny.",
+        "score": 0.8913
+      },
+      {
+        "movie_id": 953,
+        "title": "Madagascar",
+        "year": "2005",
+        "genres": "Family Animation",
+        "director": "Eric Darnell",
+        "cast": "Ben Stiller Chris Rock David Schwimmer Jada Pinkett Smith Sacha Baron Cohen",
+        "overview": "After escaping from the zoo, four friends — a lion, a hippo, a zebra and a giraffe — are sent back to Africa. When their ship capsizes, stranding them on Madagascar, the pals must adapt to jungle life and their new roles as wild animals.",
+        "score": 0.8672
+      },
+      {
+        "movie_id": 425,
+        "title": "Ice Age",
+        "year": "2002",
+        "genres": "Animation Comedy Family Adventure",
+        "director": "Chris Wedge",
+        "cast": "Ray Romano John Leguizamo Denis Leary Goran Visnjic Jack Black",
+        "overview": "With the impending ice age almost upon them, a mismatched trio of prehistoric critters — Manny the woolly mammoth, Diego the saber-toothed tiger and Sid the giant sloth — find an orphaned infant and decide to return it to its human parents.",
+        "score": 0.8431
+      },
+      {
+        "movie_id": 862,
+        "title": "Toy Story",
+        "year": "1995",
+        "genres": "Animation Comedy Family",
+        "director": "John Lasseter",
+        "cast": "Tom Hanks Tim Allen Don Rickles Jim Varney Wallace Shawn",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate them from their owner, the duo learns to put aside their differences.",
+        "score": 0.8215
+      }
+    ]
+  }
+]
