@@ -1,12 +1,15 @@
+// ── Fill in your TMDB API key to load movie poster images ─────────────────
+// Get a free key at https://www.themoviedb.org/settings/api
+const TMDB_API_KEY = '';
+
 // ── CONFIG ─────────────────────────────────────────────────────────────────
-// Set TMDB_API_KEY to fetch live movie posters; leave blank to use placeholders.
 const CONFIG = {
-  API_URL:       'http://localhost:5000/search',
-  TMDB_API_KEY:  '',                                    // ← paste your key here
-  TMDB_IMG:      'https://image.tmdb.org/t/p/w342',
-  TMDB_DETAILS:  'https://api.themoviedb.org/3/movie',
-  DEMO_URL:      'demo_results.json',
-  DEFAULT_K:     5,
+  API_URL:      'http://localhost:5000/search',
+  TMDB_API_KEY,                                         // references the const above
+  TMDB_IMG:     'https://image.tmdb.org/t/p/w500',
+  TMDB_DETAILS: 'https://api.themoviedb.org/3/movie',
+  DEMO_URL:     'demo_results.json',
+  DEFAULT_K:    5,
 };
 
 // ── STATE ──────────────────────────────────────────────────────────────────
@@ -152,7 +155,9 @@ async function renderResults(results, query, isDemo, matchedQuery = '') {
     return { card, movie };
   });
 
+  kValLabel.textContent = results.length;
   showResults();
+  resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   // Animate score bars after paint
   requestAnimationFrame(() => {
@@ -173,11 +178,15 @@ async function renderResults(results, query, isDemo, matchedQuery = '') {
       const img         = card.querySelector('.poster-img');
       const placeholder = card.querySelector('.poster-placeholder');
       if (!img) return;
-      img.onload = () => {
+      const showPoster = () => {
         img.classList.add('loaded');
         if (placeholder) placeholder.classList.add('hidden-by-img');
       };
+      img.onload  = showPoster;
+      img.onerror = () => { img.removeAttribute('src'); };
       img.src = url;
+      // Handle already-cached images that fire load before onload is set
+      if (img.complete && img.naturalWidth) showPoster();
       img.alt = movie.title;
     });
   }
@@ -200,7 +209,7 @@ function buildCard(movie, rank, animDelay) {
       <div class="poster-placeholder">
         <span class="poster-initial" aria-hidden="true">${escapeHtml(movie.title.charAt(0).toUpperCase())}</span>
       </div>
-      <img class="poster-img" src="" alt="" loading="lazy" />
+      <img class="poster-img" src="" alt="" />
       <div class="rank-badge ${rankCls}" aria-label="Rank ${rank}">${ordinal(rank)}</div>
       <div class="score-overlay" aria-label="${pct}% similarity">
         <div class="score-bar-track" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100">
