@@ -39,23 +39,10 @@ def cosine_similarity(a: np.ndarray, b: np.ndarray) -> float:
 # =============================================================================
 
 class LSHIndex:
-    """
-    Random-hyperplane LSH index for approximate nearest-neighbour search.
-
-    After __init__ returns, these attributes MUST exist:
-    self.planes  -- np.ndarray, shape (num_tables, num_bits, d)
-                    where d is the vector dimension (384 in this project,
-                    as the all-MiniLM-L6-v2 model always outputs 384-dimensional vectors)
-    self.tables  -- list of num_tables dicts {key -> [idx, ...]}
-                    Each dictionary represents one hash table, where:
-                    - `key` is the integer bucket ID computed from the hyperplanes.
-                    - `[idx, ...]` is a list of integers representing the movies inside 
-                        that bucket (e.g., [0, 5, 12] means the 1st, 6th, and 13th 
-                        movies from tmdb_data.json)."""
 
     def __init__(self, vectors: np.ndarray, num_tables: int, num_bits: int, **kwargs):
 
-
+        # given parameters
         self._vectors    = vectors
         self._num_tables = num_tables
         self._num_bits   = num_bits
