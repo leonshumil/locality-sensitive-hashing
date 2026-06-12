@@ -6,7 +6,7 @@ const TMDB_API_KEY = '';
 const CONFIG = {
   API_URL:      'http://localhost:5000/search',
   TMDB_API_KEY,                                         // references the const above
-  TMDB_IMG:     'https://image.tmdb.org/t/p/w500',
+  TMDB_IMG:     'https://image.tmdb.org/t/p/w342',
   TMDB_DETAILS: 'https://api.themoviedb.org/3/movie',
   DEMO_URL:     'demo_results.json',
   DEFAULT_K:    5,
@@ -105,13 +105,14 @@ async function loadDemoResults(query, k) {
 }
 
 function pickBestDemo(query, demos) {
-  const qWords = new Set(
-    query.toLowerCase().split(/\W+/).filter(w => w.length > 2)
-  );
+  // Count how many words from the user query appear (as substrings) in each demo query.
+  // Substring matching lets "sci" match "science", "thriller" match "thriller", etc.
+  const qWords = query.toLowerCase().split(/\W+/).filter(w => w.length > 1);
   let best = demos[0], bestScore = -1;
   for (const demo of demos) {
-    const overlap = demo.query.toLowerCase().split(/\W+/).filter(w => qWords.has(w)).length;
-    if (overlap > bestScore) { bestScore = overlap; best = demo; }
+    const demoText = demo.query.toLowerCase();
+    const score = qWords.filter(w => demoText.includes(w)).length;
+    if (score > bestScore) { bestScore = score; best = demo; }
   }
   return best;
 }
@@ -123,7 +124,7 @@ async function fetchPoster(movieId) {
 
   try {
     const res = await fetch(
-      `${CONFIG.TMDB_DETAILS}/${movieId}?api_key=${CONFIG.TMDB_API_KEY}&language=en-US`
+      `${CONFIG.TMDB_DETAILS}/${movieId}?api_key=${CONFIG.TMDB_API_KEY}`
     );
     if (!res.ok) { posterCache.set(movieId, null); return null; }
     const data = await res.json();
@@ -157,7 +158,7 @@ async function renderResults(results, query, isDemo, matchedQuery = '') {
 
   kValLabel.textContent = results.length;
   showResults();
-  resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.scrollTo({ top: resultsSection.offsetTop - 80, behavior: 'smooth' });
 
   // Animate score bars after paint
   requestAnimationFrame(() => {
