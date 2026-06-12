@@ -1,5 +1,7 @@
 # CineMatch — Semantic Movie Search
 
+**[Live demo → leonshumil.github.io/locality-sensitive-hashing](https://leonshumil.github.io/locality-sensitive-hashing/)**
+
 Find movies by meaning, not keywords. Neural sentence embeddings + Locality-Sensitive Hashing over 4,803 TMDB films.
 
 ![LSH Architecture](LSH-arcitecture.png)
