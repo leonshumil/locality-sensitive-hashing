@@ -1,45 +1,85 @@
-**Project Overview**
-- **Goal:** Build a simple semantic movie search using embeddings and Locality-Sensitive Hashing (LSH).
-- **Approach:** Encode text queries to vectors, use LSH to narrow candidates, then re-rank with a precise similarity measure.
+# CineMatch — Semantic Movie Search
 
-**High-Level Design**
-- **Diagram:** Replace the placeholder image `LSH-architecture.png` with your diagram showing components and data flow.
+Find movies by meaning, not keywords. Neural sentence embeddings + Locality-Sensitive Hashing over 4,803 TMDB films.
 
-  ![LSH Architecture](LSH-arcitecture.png)
+![LSH Architecture](LSH-arcitecture.png)
 
-- **Components (summary):**
-  - **Encoder:** converts free-text queries into fixed-length vectors (embeddings).
-  - **Vector Store:** the precomputed movie vectors (one row per movie).
-  - **LSHIndex:** a set of independent hash tables built with random hyperplanes to bucket similar vectors.
-  - **Search Flow:** encode query -> compute hash keys -> gather candidate indices from LSH tables -> re-rank candidates by cosine similarity -> return top-k results.
+## How it works
 
-**Repository Layout**
-- **`search.py`** : Main submission file (implement the required functions and classes here).
-- **`search_template.py`** : Starter template / reference.
-- **`settings.json`** : Configuration (LSH params, file paths, top-k).
-- **`tmdb_data.json`** : Movies metadata used for final output.
-- **`tmdb_vectors.npy`** : Numpy array of normalized embeddings (one vector per movie).
-- **`test_local.py`** : Local checker used to validate the implementation.
-- **`requirements.txt`** : Python dependencies for local testing.
-- **`LSH-architecture.png`** : (placeholder) diagram showing the architecture — add your image here.
+1. **Embed** — The query is encoded into a 384-dim vector by `all-MiniLM-L6-v2` (sentence-transformers).
+2. **Hash** — The vector is projected through 20 sets of 8 random hyperplanes; similar vectors collide into the same LSH bucket.
+3. **Retrieve** — Only movies in matching buckets become candidates (~1% of the index), skipping exhaustive search.
+4. **Rank** — Candidates are re-scored by exact cosine similarity and the top-K are returned.
 
-**Quick Start (edit as needed)**
-- **Install deps:** `pip install -r requirements.txt`
-- **Run local checks:** `python test_local.py`
-- **Implement:** Fill `search.py` with the required stubs: `cosine_similarity`, `LSHIndex`, and `search`.
+## Repository layout
 
-**Implementation Notes (keep brief)**
-- Keep `search.py` import-safe (no side-effects at import time).
-- Read LSH parameters from `settings.json` when needed.
-- The search flow should be: encode -> LSH candidate lookup -> precise re-rank.
+| File | Description |
+|---|---|
+| `search.py` | Core library: `cosine_similarity`, `LSHIndex`, `search()` |
+| `server.py` | Flask API wrapping `search.py` (run locally for live search) |
+| `index.html` | GitHub Pages frontend |
+| `style.css` | Dark-theme stylesheet |
+| `app.js` | Frontend logic — calls local API, falls back to demo results |
+| `demo_results.json` | Precomputed results for 4 demo queries (static fallback) |
+| `settings.json` | LSH hyperparameters, file paths, top-k default |
+| `tmdb_data.json` | Movie metadata (4,803 films) |
+| `tmdb_vectors.npy` | Precomputed normalized embeddings |
+| `test_local.py` | Local correctness checker |
+| `requirements.txt` | Python dependencies |
 
-**Next Steps / To-Do**
-- Replace the diagram `LSH-architecture.png` with your finalized image.
-- Flesh out the prose in each section with exact wording you want for submission.
-- Implement the functions in `search.py` and run `test_local.py` to validate behavior.
+## Quick start
 
-If you want, I can:
-- implement the functions now, or
-- add a placeholder `LSH-architecture.png` file, or
-- expand any README section with more detail.
-# locality-sensitive-hashing
+### Run the frontend (static demo, no server needed)
+
+Open `index.html` directly in a browser, or serve it with any static server:
+
+```bash
+python -m http.server 8080
+# then open http://localhost:8080
+```
+
+Click any demo pill or type a query. Results come from `demo_results.json` when the local API is not running.
+
+### Run the live API
+
+```bash
+pip install flask flask-cors          # server extras (beyond requirements.txt)
+python server.py                      # starts on http://localhost:5000
+```
+
+Then refresh the page — the badge switches from **Demo** to **Live API** and any query is answered in real time.
+
+### Enable movie posters
+
+Open `app.js` and set your [TMDB API key](https://www.themoviedb.org/settings/api):
+
+```js
+const CONFIG = {
+  TMDB_API_KEY: 'your_key_here',
+  ...
+};
+```
+
+### Run backend tests
+
+```bash
+pip install -r requirements.txt
+python test_local.py
+```
+
+## Configuration
+
+`settings.json` controls LSH behaviour:
+
+```json
+{
+  "lsh": {
+    "num_tables":      20,
+    "num_bits":         8,
+    "hyperplane_seed": 42
+  },
+  "search": { "top_k": 5 }
+}
+```
+
+Increasing `num_tables` improves recall; increasing `num_bits` reduces bucket collisions (sharper candidates).
