@@ -22,7 +22,9 @@ Find movies by meaning, not keywords. Neural sentence embeddings + Locality-Sens
 | `index.html` | GitHub Pages frontend |
 | `style.css` | Dark-theme stylesheet |
 | `app.js` | Frontend logic — calls local API, falls back to demo results |
-| `demo_results.json` | Precomputed results for 4 demo queries (static fallback) |
+| `demo_results.json` | Precomputed results for 6 demo queries, 20 results each (static fallback) |
+| `config.example.js` | API key template — copy to `config.js` and fill in your key |
+| `config.js` | Your TMDB API key — **not committed** (listed in `.gitignore`) |
 | `settings.json` | LSH hyperparameters, file paths, top-k default |
 | `tmdb_data.json` | Movie metadata (4,803 films) |
 | `tmdb_vectors.npy` | Precomputed normalized embeddings |
@@ -53,14 +55,15 @@ Then refresh the page — the badge switches from **Demo** to **Live API** and a
 
 ### Enable movie posters
 
-Open `app.js` and set your [TMDB API key](https://www.themoviedb.org/settings/api):
+The API key is loaded from `config.js`, which is **not committed** (it's in `.gitignore`).
 
-```js
-const CONFIG = {
-  TMDB_API_KEY: 'your_key_here',
-  ...
-};
+```bash
+cp config.example.js config.js
+# then open config.js and paste your key:
+#   const TMDB_API_KEY = 'your_key_here';
 ```
+
+Get a free key at [themoviedb.org/settings/api](https://www.themoviedb.org/settings/api).
 
 ### Run backend tests
 

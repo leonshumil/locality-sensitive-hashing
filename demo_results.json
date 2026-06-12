@@ -3,44 +3,144 @@
     "query": "romance movie with julia roberts",
     "results": [
       {
+        "movie_id": 42222,
+        "title": "Julia",
+        "year": "1977",
+        "genres": "Drama",
+        "director": "Fred Zinnemann",
+        "cast": "Jane Fonda Vanessa Redgrave Jason Robards Maximilian Schell Hal Holbrook",
+        "overview": "At the behest of an old and dear friend, playwright Lillian Hellman undertakes a dangerous mission to smuggle funds into Nazi Germany.",
+        "score": 0.6318919062614441
+      },
+      {
+        "movie_id": 18701,
+        "title": "Being Julia",
+        "year": "2004",
+        "genres": "Comedy Drama Romance",
+        "director": "István Szabó",
+        "cast": "Michael Gambon Annette Bening Leigh Lawson Shaun Evans Jeremy Irons",
+        "overview": "Julia Lambert is a true diva: beautiful, talented, weathly and famous.  She has it all - including a devoted husband who has mastermined her brilliant career - but after years of shining in the spotlight she begins to suffer from a severe case of boredom and longs for something new and exciting to put the twinkle back in her eye.  Julia finds exactly what she's looking for in a handsome young American fan, but it isn't long before the novelty fling adds a few more sparks than she was hoping for.  Fortuately for her, this surprise twist in the plot will trust her back into the greatest role of her life.",
+        "score": 0.6138762831687927
+      },
+      {
+        "movie_id": 86837,
+        "title": "Amour",
+        "year": "2012",
+        "genres": "Drama Romance",
+        "director": "Michael Haneke",
+        "cast": "Emmanuelle Riva Jean-Louis Trintignant Isabelle Huppert William Shimell Rita Blanco",
+        "overview": "Georges and Anne are in their eighties. They are cultivated, retired music teachers. Their daughter, who is also a musician, lives abroad with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.",
+        "score": 0.6114301085472107
+      },
+      {
+        "movie_id": 79698,
+        "title": "The Lovers",
+        "year": "2015",
+        "genres": "Action Adventure Science Fiction Romance",
+        "director": "Roland Joffé",
+        "cast": "Josh Hartnett Simone Kessell Tamsin Egerton Alice Englert Bipasha Basu",
+        "overview": "The Lovers is an epic romance time travel adventure film. Helmed by Roland Joffé from a story by Ajey Jhankar, the film is a sweeping tale of an impossible love set against the backdrop of the first Anglo-Maratha war across two time periods and continents and centred around four characters — a British officer in 18th century colonial India, the Indian woman he falls deeply in love with, an American present-day marine biologist and his wife.",
+        "score": 0.5975143313407898
+      },
+      {
+        "movie_id": 13994,
+        "title": "Romance & Cigarettes",
+        "year": "2005",
+        "genres": "Comedy Music Romance",
+        "director": "John Turturro",
+        "cast": "James Gandolfini Susan Sarandon Kate Winslet Steve Buscemi Mandy Moore",
+        "overview": "Down-and-dirty musical love story set in the world of the working class. Nick is an ironworker who builds and repairs bridges. He's married to Kitty, a dressmaker, a strong and gentle woman with whom he has three daughters. He is carrying on a torrid affair with a redheaded woman named Tula. Nick is basically a good, hardworking man driven forward by will and blinded by his urges.",
+        "score": 0.5696885585784912
+      },
+      {
+        "movie_id": 2288,
+        "title": "Closer",
+        "year": "2004",
+        "genres": "Drama Romance",
+        "director": "Mike Nichols",
+        "cast": "Julia Roberts Jude Law Natalie Portman Clive Owen Colin Stinton",
+        "overview": "A witty, romantic, and very dangerous love story about chance meetings, instant attractions, and casual betrayals. Two couples disintegrate when they begin destructive adulterous affairs with each other.",
+        "score": 0.5592584609985352
+      },
+      {
+        "movie_id": 25643,
+        "title": "Love Happens",
+        "year": "2009",
+        "genres": "Drama Romance",
+        "director": "Brandon Camp",
+        "cast": "Aaron Eckhart Jennifer Aniston Judy Greer Martin Sheen Deirdre Blades",
+        "overview": "Dr. Burke Ryan is a successful self-help author and motivational speaker with a secret. While he helps thousands of people cope with tragedy and personal loss, he secretly is unable to overcome the death of his late wife. It's not until Burke meets a fiercely independent florist named Eloise that he is forced to face his past and overcome his demons.",
+        "score": 0.5493990182876587
+      },
+      {
+        "movie_id": 76996,
+        "title": "Love and Other Catastrophes",
+        "year": "1996",
+        "genres": "Comedy Romance",
+        "director": "Emma-Kate Croghan",
+        "cast": "Matt Day Matthew Dyktynski Alice Garner Frances O'Connor Radha Mitchell",
+        "overview": "A day in the life of two film-school students trying to find love and another house-mate.",
+        "score": 0.5448048114776611
+      },
+      {
+        "movie_id": 10984,
+        "title": "Valentine",
+        "year": "2001",
+        "genres": "Horror Thriller",
+        "director": "Jamie Blanks",
+        "cast": "Denise Richards David Boreanaz Marley Shelton Jessica Capshaw Jessica Cauffiel",
+        "overview": "Five friends are stalked and murdered by a masked assailant while preparing for Valentine's Day.",
+        "score": 0.5436021685600281
+      },
+      {
         "movie_id": 114,
         "title": "Pretty Woman",
         "year": "1990",
         "genres": "Romance Comedy",
         "director": "Garry Marshall",
         "cast": "Julia Roberts Richard Gere Ralph Bellamy Jason Alexander Héctor Elizondo",
-        "overview": "When millionaire wheeler-dealer Edward Lewis enters a business contract with Hollywood hooker Vivian Ward, he loses his heart in the bargain in this charming romantic comedy. After Edward hires Vivian as his date for a week and gives her a Cinderella makeover, she returns the favor by mellowing the hardnosed tycoon's outlook.",
-        "score": 0.8214
+        "overview": "When millionaire wheeler-dealer Edward Lewis enters a business contract with Hollywood hooker Vivian Ward, he loses his heart in the bargain in this charming romantic comedy. After Edward hires Vivian as his date for a week and gives her a Cinderella makeover, she returns the favor by mellowing the hardnosed tycoon's outlook. Can the poor prostitute and the rich capitalist live happily ever after?",
+        "score": 0.5350678563117981
       },
       {
-        "movie_id": 509,
-        "title": "Notting Hill",
-        "year": "1999",
-        "genres": "Romance Comedy Drama",
-        "director": "Roger Michell",
-        "cast": "Julia Roberts Hugh Grant Gina McKee Tim McInnerny Rhys Ifans",
-        "overview": "The British comedy from director Roger Michell tells the love story between a famous actress and a simple book seller from London. A look into the attempt for famous people to have a personal and private life and the ramifications that follow.",
-        "score": 0.7841
+        "movie_id": 51384,
+        "title": "Lovely, Still",
+        "year": "2008",
+        "genres": "Drama Romance",
+        "director": "Nicholas Fackler",
+        "cast": "Martin Landau Ellen Burstyn Adam Scott Elizabeth Banks",
+        "overview": "A holiday fable that tells the story of an elderly man discovering love for the first time.",
+        "score": 0.5253140926361084
       },
       {
-        "movie_id": 8874,
-        "title": "My Best Friend's Wedding",
-        "year": "1997",
+        "movie_id": 508,
+        "title": "Love Actually",
+        "year": "2003",
+        "genres": "Comedy Romance Drama",
+        "director": "Richard Curtis",
+        "cast": "Keira Knightley Heike Makatsch Emma Thompson Laura Linney Hugh Grant",
+        "overview": "Follows seemingly unrelated people as their lives begin to intertwine while they fall in – and out – of love. Affections languish and develop as Christmas draws near.",
+        "score": 0.5208319425582886
+      },
+      {
+        "movie_id": 10028,
+        "title": "Honey",
+        "year": "2003",
+        "genres": "Romance Music Family",
+        "director": "Bille Woodruff",
+        "cast": "Jessica Alba Mekhi Phifer Joy Bryant Romeo Miller David Moscow",
+        "overview": "Honey Daniels (Jessica Alba) dreams of making a name for herself as a hip-hop choreographer. When she's not busy hitting downtown clubs with her friends, she teaches dance classes at a nearby community center in Harlem, N.Y., as a way to keep kids off the streets. Honey thinks she's hit the jackpot when she meets a hotshot director (David Moscow) who casts her in one of his music videos. But, when he starts demanding sexual favors from her, Honey makes a decision that will change her life.",
+        "score": 0.5152540802955627
+      },
+      {
+        "movie_id": 32856,
+        "title": "Valentine's Day",
+        "year": "2010",
         "genres": "Comedy Romance",
-        "director": "P.J. Hogan",
-        "cast": "Julia Roberts Dermot Mulroney Cameron Diaz Rupert Everett Philip Bosco",
-        "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael — and sets out to sabotage the wedding.",
-        "score": 0.7512
-      },
-      {
-        "movie_id": 462,
-        "title": "Erin Brockovich",
-        "year": "2000",
-        "genres": "Drama",
-        "director": "Steven Soderbergh",
-        "cast": "Julia Roberts Albert Finney Aaron Eckhart Marg Helgenberger Cherry Jones",
-        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
-        "score": 0.6328
+        "director": "Garry Marshall",
+        "cast": "Jessica Alba Jessica Biel Bradley Cooper Eric Dane Patrick Dempsey",
+        "overview": "More than a dozen Angelenos navigate Valentine's Day from early morning until midnight. Three couples awake together, but each relationship will sputter; are any worth saving? A grade-school boy wants flowers for his first true love; two high school seniors plan first-time sex at noon; a TV sports reporter gets the assignment to find romance in LA; a star quarterback contemplates his future; two strangers meet on a plane; grandparents, together for years, face a crisis; and, an \"I Hate Valentine's Day\" dinner beckons the lonely and the lied to. Can Cupid finish his work by midnight?",
+        "score": 0.5135843753814697
       },
       {
         "movie_id": 50646,
@@ -49,78 +149,418 @@
         "genres": "Comedy Drama Romance",
         "director": "Glenn Ficarra",
         "cast": "Steve Carell Julianne Moore Ryan Gosling Emma Stone Marisa Tomei",
-        "overview": "Cal Weaver is living the American dream until he learns that Emily has been unfaithful and wants a divorce. Over 40 and suddenly single, Cal is adrift in the fickle world of dating. Enter Jacob Palmer, a self-styled player who takes Cal under his wing.",
-        "score": 0.5983
+        "overview": "Cal Weaver is living the American dream. He has a good job, a beautiful house, great children and a beautiful wife, named Emily. Cal's seemingly perfect life unravels, however, when he learns that Emily has been unfaithful and wants a divorce. Over 40 and suddenly single, Cal is adrift in the fickle world of dating. Enter, Jacob Palmer, a self-styled player who takes Cal under his wing and teaches him how to be a hit with the ladies.",
+        "score": 0.511532723903656
+      },
+      {
+        "movie_id": 19899,
+        "title": "Couples Retreat",
+        "year": "2009",
+        "genres": "Comedy Romance",
+        "director": "Peter Billingsley",
+        "cast": "Vince Vaughn Malin Åkerman Jason Bateman Kristen Bell Jon Favreau",
+        "overview": "Four couples, all friends, descend on a tropical island resort. Though one husband and wife are there to work on their marriage, the others just want to enjoy some fun in the sun. They soon find, however, that paradise comes at a price: Participation in couples therapy sessions is mandatory. What started out as a cut-rate vacation turns into an examination of the common problems many face.",
+        "score": 0.5092012286186218
+      },
+      {
+        "movie_id": 10073,
+        "title": "Date Movie",
+        "year": "2006",
+        "genres": "Comedy",
+        "director": "Jason Friedberg",
+        "cast": "Alyson Hannigan Adam Campbell Sophie Monk Jennifer Coolidge Fred Willard",
+        "overview": "Spoof of romantic comedies which focuses on a man (Campbell), his crush (Hannigan), his parents (Coolidge, Willard), and her father (Griffin).",
+        "score": 0.5076061487197876
+      },
+      {
+        "movie_id": 9944,
+        "title": "The Pelican Brief",
+        "year": "1993",
+        "genres": "Drama Mystery Thriller Crime",
+        "director": "Alan J. Pakula",
+        "cast": "Julia Roberts Denzel Washington Sam Shepard William Atherton John Lithgow",
+        "overview": "Two Supreme Court Justices have been assassinated. One lone law student has stumbled upon the truth. An investigative journalist wants her story. Everybody else wants her dead.",
+        "score": 0.5059152245521545
+      },
+      {
+        "movie_id": 11812,
+        "title": "The Sweetest Thing",
+        "year": "2002",
+        "genres": "Romance Comedy",
+        "director": "Roger Kumble",
+        "cast": "Cameron Diaz Christina Applegate Thomas Jane Selma Blair Jason Bateman",
+        "overview": "Christina's love life is stuck in neutral. After years of avoiding the hazards of a meaningful relationship, one night while club-hopping with her girlfriends, she meets Peter, her perfect match. Fed up with playing games, she finally gets the courage to let her guard down and follow her heart, only to discover that Peter has suddenly left town. Accompanied by Courtney, she sets out to capture the one that got away.",
+        "score": 0.5044658780097961
+      },
+      {
+        "movie_id": 3981,
+        "title": "What Women Want",
+        "year": "2000",
+        "genres": "Comedy Romance",
+        "director": "Nancy Meyers",
+        "cast": "Helen Hunt Mel Gibson Marisa Tomei Lauren Holly Mark Feuerstein",
+        "overview": "Advertising executive Nick Marshall is as cocky as they come, but what happens to a chauvinistic guy when he can suddenly hear what women are thinking? Nick gets passed over for a promotion, but after an accident enables him to hear women's thoughts, he puts his newfound talent to work against Darcy, his new boss, who seems to be infatuated with him.",
+        "score": 0.49809563159942627
       }
     ]
   },
   {
-    "query": "psychological thriller where the main character discovers a dark secret about their past",
+    "query": "psychological thriller dark secret",
     "results": [
       {
-        "movie_id": 11324,
-        "title": "Shutter Island",
-        "year": "2010",
-        "genres": "Drama Thriller Mystery",
-        "director": "Martin Scorsese",
-        "cast": "Leonardo DiCaprio Mark Ruffalo Ben Kingsley Emily Mortimer Michelle Williams",
-        "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and a mysterious doctor who seems to know more than he lets on.",
-        "score": 0.8472
-      },
-      {
-        "movie_id": 550,
-        "title": "Fight Club",
-        "year": "1999",
-        "genres": "Drama",
-        "director": "David Fincher",
-        "cast": "Edward Norton Brad Pitt Meat Loaf Jared Leto Helena Bonham Carter",
-        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground fight clubs forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-        "score": 0.8119
-      },
-      {
-        "movie_id": 44214,
-        "title": "Black Swan",
-        "year": "2010",
-        "genres": "Drama Thriller",
-        "director": "Darren Aronofsky",
-        "cast": "Natalie Portman Mila Kunis Vincent Cassel Barbara Hershey Winona Ryder",
-        "overview": "A ballet dancer wins the lead in Swan Lake and is perfect for the role of the delicate White Swan — but slowly loses her mind as she becomes more and more like Odile, the Black Swan, blurring the line between obsession and identity.",
-        "score": 0.7893
-      },
-      {
-        "movie_id": 210577,
-        "title": "Gone Girl",
+        "movie_id": 283686,
+        "title": "Out of the Dark",
         "year": "2014",
-        "genres": "Mystery Thriller Drama",
-        "director": "David Fincher",
-        "cast": "Ben Affleck Rosamund Pike Carrie Coon Neil Patrick Harris Tyler Perry",
-        "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent. Secrets unravel and nothing is as it seems.",
-        "score": 0.7614
+        "genres": "Thriller Horror",
+        "director": "Lluís Quílez",
+        "cast": "Julia Stiles Scott Speedman Stephen Rea Alejandro Furth Pixie Davies",
+        "overview": "A couple and their daughter moves to Colombia to take over a family manufacturing plant, only to realize their new home is haunted.",
+        "score": 0.5780832767486572
       },
       {
-        "movie_id": 27205,
-        "title": "Inception",
+        "movie_id": 395766,
+        "title": "The Secret",
+        "year": "2016",
+        "genres": "Drama",
+        "director": "Nick Murphy ",
+        "cast": "James Nesbitt Genevieve O'Reilly Jason Watkins Laura Pyper Glen Wallace",
+        "overview": "The Secret is the story of a real-life double murder. James Nesbitt plays Colin Howell, a respectable dentist and pillar of the community, who became a killer in partnership with a Sunday school teacher, Hazel Buchanan, played by Genevieve O'Reilly.",
+        "score": 0.5716583132743835
+      },
+      {
+        "movie_id": 18045,
+        "title": "The Dark Hours",
+        "year": "2005",
+        "genres": "Horror Science Fiction Thriller",
+        "director": "Paul Fox",
+        "cast": "Kate Greenhouse Aidan Devine Gordon Currie Iris Graham Dov Tiefenbach",
+        "overview": "Dr. Samantha Goodman is a beautiful, young psychiatrist. Burnt out, she drives to the family’s winter cottage to spend time with her husband and sister. A relaxing weekend is jarringly interrupted when a terrifying and unexpected guest arrives. What follows is an extraordinary night of terror and evil mind games where escape is not an option.",
+        "score": 0.5553192496299744
+      },
+      {
+        "movie_id": 25376,
+        "title": "The Secret in Their Eyes",
+        "year": "2009",
+        "genres": "Crime Drama Mystery Romance",
+        "director": "Juan José Campanella",
+        "cast": "Ricardo Darín Soledad Villamil Pablo Rago Javier Godino Guillermo Francella",
+        "overview": "A retired legal counselor writes a novel hoping to find closure for one of his past unresolved homicide cases and for his unreciprocated love with his superior - both of which still haunt him decades later.",
+        "score": 0.5294857025146484
+      },
+      {
+        "movie_id": 2666,
+        "title": "Dark City",
+        "year": "1998",
+        "genres": "Mystery Science Fiction",
+        "director": "Alex Proyas",
+        "cast": "Rufus Sewell William Hurt Kiefer Sutherland Jennifer Connelly Richard O'Brien",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "score": 0.5242855548858643
+      },
+      {
+        "movie_id": 2655,
+        "title": "What Lies Beneath",
+        "year": "2000",
+        "genres": "Drama Horror Mystery Thriller",
+        "director": "Robert Zemeckis",
+        "cast": "Harrison Ford Michelle Pfeiffer Diana Scarwid James Remar Miranda Otto",
+        "overview": "When Claire Spencer starts hearing ghostly voices and seeing spooky images, she wonders if an otherworldly spirit is trying to contact her. All the while, her husband tries to reassure her by telling her it's all in her head. But as Claire investigates, she discovers that the man she loves might know more than he's letting on.",
+        "score": 0.5232670903205872
+      },
+      {
+        "movie_id": 290751,
+        "title": "Secret in Their Eyes",
+        "year": "2015",
+        "genres": "Crime Drama Mystery",
+        "director": "Billy Ray",
+        "cast": "Chiwetel Ejiofor Nicole Kidman Julia Roberts Dean Norris Lyndon Smith",
+        "overview": "A tight-knit team of FBI investigators, along with their District Attorney supervisor, is suddenly torn apart when they discover that one of their own teenage daughters has been brutally murdered.",
+        "score": 0.5221987366676331
+      },
+      {
+        "movie_id": 11056,
+        "title": "Darkness",
+        "year": "2002",
+        "genres": "Horror",
+        "director": "Jaume Balagueró",
+        "cast": "Anna Paquin Lena Olin Iain Glen Giancarlo Giannini Fele Martínez",
+        "overview": "A teenage girl moves into a remote countryside house with her family, only to discover that their gloomy new home has a horrifying past that threatens to destroy the family.",
+        "score": 0.5170912742614746
+      },
+      {
+        "movie_id": 331493,
+        "title": "Light from the Darkroom",
+        "year": "2014",
+        "genres": "",
+        "director": "Unknown",
+        "cast": "",
+        "overview": "Light in the Darkroom is the story of two best friends whose faith is tested when their friends disappear during a religious pilgrimage.",
+        "score": 0.5069515109062195
+      },
+      {
+        "movie_id": 36351,
+        "title": "Light Sleeper",
+        "year": "1992",
+        "genres": "Drama Crime",
+        "director": "Paul Schrader",
+        "cast": "Willem Dafoe Susan Sarandon Dana Delany David Clennon Mary Beth Hurt",
+        "overview": "A drug dealer with upscale clientele is having moral problems going about his daily deliveries. A reformed addict, he has never gotten over the wife that left him, and the couple that use him for deliveries worry about his mental well-being and his effectiveness at his job. Meanwhile someone is killing women in apparently drug-related incidents.",
+        "score": 0.5060500502586365
+      },
+      {
+        "movie_id": 46261,
+        "title": "Don't Be Afraid of the Dark",
         "year": "2010",
-        "genres": "Action Thriller Science Fiction Mystery Adventure",
-        "director": "Christopher Nolan",
-        "cast": "Leonardo DiCaprio Joseph Gordon-Levitt Elliot Page Tom Hardy Ken Watanabe",
-        "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets, is offered a chance to regain his old life as payment for a task considered to be impossible: inception, the implantation of another person's idea into a target's subconscious.",
-        "score": 0.7341
+        "genres": "Fantasy Horror Thriller",
+        "director": "Troy Nixey",
+        "cast": "Katie Holmes Guy Pearce Bailee Madison Alan Dale Jack Thompson",
+        "overview": "A young girl sent to live with her father and his new girlfriend discovers creatures in her new home who want to claim her as one of their own.",
+        "score": 0.5032100081443787
+      },
+      {
+        "movie_id": 20055,
+        "title": "The Betrayed",
+        "year": "2008",
+        "genres": "Crime Drama Mystery Thriller",
+        "director": "Amanda Gusack",
+        "cast": "Melissa George Oded Fehr Christian Campbell Alice Krige Connor Christopher Levins",
+        "overview": "Kidnappers force a young mother (Melissa George) to recover money stolen by her shady husband (Christian Campbell).",
+        "score": 0.5016366243362427
+      },
+      {
+        "movie_id": 12142,
+        "title": "Alone in the Dark",
+        "year": "2005",
+        "genres": "Action Fantasy Horror Thriller",
+        "director": "Uwe Boll",
+        "cast": "Christian Slater Tara Reid Stephen Dorff Frank C. Turner Matthew Walker",
+        "overview": "Edward Carnby is a private investigator specializing in unexplainable supernatural phenomena. His cases delve into the dark corners of the world, searching for truth in the occult remnants of ancient civilizations. Now, the greatest mystery of his past is about to become the most dangerous case he has ever faced.",
+        "score": 0.49331167340278625
+      },
+      {
+        "movie_id": 8984,
+        "title": "Disclosure",
+        "year": "1994",
+        "genres": "Drama Thriller Crime Mystery Romance",
+        "director": "Barry Levinson",
+        "cast": "Michael Douglas Demi Moore Donald Sutherland Dylan Baker Jacqueline Kim",
+        "overview": "A computer specialist is sued for sexual harassment by a former lover turned boss who initiated the act forcefully, which threatens both his career and his personal life.",
+        "score": 0.4774927794933319
+      },
+      {
+        "movie_id": 181533,
+        "title": "Night at the Museum: Secret of the Tomb",
+        "year": "2014",
+        "genres": "Adventure Comedy Fantasy Family",
+        "director": "Shawn Levy",
+        "cast": "Ben Stiller Rami Malek Rebel Wilson Robin Williams Owen Wilson",
+        "overview": "When the magic powers of The Tablet of Ahkmenrah begin to die out, Larry Daley (Ben Stiller) spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever.",
+        "score": 0.47258591651916504
+      },
+      {
+        "movie_id": 50698,
+        "title": "Grave Encounters",
+        "year": "2011",
+        "genres": "Thriller Horror",
+        "director": "Colin Minihan",
+        "cast": "Sean Rogerson Juan Riedinger Ashleigh Gryzko Mackenzie Gray Arthur Corber",
+        "overview": "A crew from a paranormal reality television show lock themselves in a haunted psychiatric hospital. They search for evidence of paranormal activity as they shoot what ends up becoming their final episode.",
+        "score": 0.47077423334121704
+      },
+      {
+        "movie_id": 300671,
+        "title": "13 Hours: The Secret Soldiers of Benghazi",
+        "year": "2016",
+        "genres": "Action Drama History Thriller War",
+        "director": "Michael Bay",
+        "cast": "James Badge Dale John Krasinski Max Martini Pablo Schreiber Toby Stephens",
+        "overview": "An American Ambassador is killed during an attack at a U.S. compound in Libya as a security team struggles to make sense out of the chaos.",
+        "score": 0.4704588055610657
+      },
+      {
+        "movie_id": 207769,
+        "title": "Banshee Chapter",
+        "year": "2013",
+        "genres": "Horror Thriller",
+        "director": "Blair Erickson",
+        "cast": "Ted Levine Katia Winter Michael McMillian Monique Candelaria Jenny Gabrielle",
+        "overview": "On the trail of a missing friend who had been experimenting with mind-altering drugs, a young journalist - aided by a rogue counter-culture writer, The Silence of The Lambs -- finds herself drawn into the dangerous world of top-secret government chemical research and the mystery of a disturbing radio signal of unknown origin. A fast-paced thriller blending fact and fiction, Banshee Chapter is based on real documents, actual test subject testimony, and uncovered secrets about covert programs run by the CIA.",
+        "score": 0.4681895077228546
+      },
+      {
+        "movie_id": 668,
+        "title": "On Her Majesty's Secret Service",
+        "year": "1969",
+        "genres": "Adventure Action Thriller",
+        "director": "Peter R. Hunt",
+        "cast": "George Lazenby Diana Rigg Telly Savalas Gabriele Ferzetti Ilse Steppat",
+        "overview": "James Bond tracks archnemesis Ernst Blofeld to a mountaintop retreat where he's training an army of beautiful but lethal women. Along the way, Bond falls for Italian contessa Tracy Draco -- and marries her in order to get closer to Blofeld. Meanwhile, he locates Blofeld in the Alps and embarks on a classic ski chase.",
+        "score": 0.4592512547969818
+      },
+      {
+        "movie_id": 270303,
+        "title": "It Follows",
+        "year": "2015",
+        "genres": "Horror Thriller",
+        "director": "David Robert Mitchell",
+        "cast": "Maika Monroe Keir Gilchrist Daniel Zovatto Jake Weary Olivia Luccardi",
+        "overview": "For 19-year-old Jay, fall should be about school, boys and weekends out at the lake. But a seemingly innocent physical encounter turns sour and gives her the inescapable sense that someone, or something, is following her. Faced with this burden, Jay and her teenage friends must find a way to escape the horror that seems to be only a few steps behind.",
+        "score": 0.4582875072956085
       }
     ]
   },
   {
-    "query": "science fiction film set in outer space with aliens and space exploration",
+    "query": "sci-fi space exploration aliens",
     "results": [
       {
-        "movie_id": 49047,
-        "title": "Gravity",
-        "year": "2013",
-        "genres": "Science Fiction Thriller Drama",
-        "director": "Alfonso Cuarón",
-        "cast": "Sandra Bullock George Clooney Ed Harris Orto Ignatiussen Phaldut Sharma",
-        "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, and veteran astronaut Matt Kowalsky face disaster when the Shuttle is destroyed, leaving them tethered to nothing but each other and spiraling into the blackness of space.",
-        "score": 0.8873
+        "movie_id": 679,
+        "title": "Aliens",
+        "year": "1986",
+        "genres": "Horror Action Thriller Science Fiction",
+        "director": "James Cameron",
+        "cast": "Sigourney Weaver Michael Biehn James Remar Paul Reiser Lance Henriksen",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "score": 0.5828291177749634
+      },
+      {
+        "movie_id": 926,
+        "title": "Galaxy Quest",
+        "year": "1999",
+        "genres": "Comedy Family Science Fiction",
+        "director": "Dean Parisot",
+        "cast": "Tim Allen Sigourney Weaver Alan Rickman Tony Shalhoub Sam Rockwell",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "score": 0.5103921294212341
+      },
+      {
+        "movie_id": 34086,
+        "title": "Spaced Invaders",
+        "year": "1990",
+        "genres": "Comedy Family Science Fiction",
+        "director": "Patrick Read Johnson",
+        "cast": "Ariana Richards Douglas Barr Royal Dano William Holmes",
+        "overview": "A crew of Martians overhears a radio broadcast of Orson Welles' \"War of the Worlds\" coming from Earth, and, thinking the Martian fleet is attacking Earth, they land their broken-down ship in a backwater mid-American town. As luck would have it, they land on Halloween and get mistaken for trick-or-treaters. Comedy ensues as the Martians try to get taken seriously.",
+        "score": 0.4957171678543091
+      },
+      {
+        "movie_id": 8078,
+        "title": "Alien: Resurrection",
+        "year": "1997",
+        "genres": "Science Fiction Horror Action",
+        "director": "Jean-Pierre Jeunet",
+        "cast": "Sigourney Weaver Winona Ryder Brad Dourif Ron Perlman Michael Wincott",
+        "overview": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
+        "score": 0.472133606672287
+      },
+      {
+        "movie_id": 348,
+        "title": "Alien",
+        "year": "1979",
+        "genres": "Horror Action Thriller Science Fiction",
+        "director": "Ridley Scott",
+        "cast": "Tom Skerritt Sigourney Weaver Veronica Cartwright Harry Dean Stanton John Hurt",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "score": 0.46498239040374756
+      },
+      {
+        "movie_id": 5551,
+        "title": "Space Cowboys",
+        "year": "2000",
+        "genres": "Action Adventure Thriller",
+        "director": "Clint Eastwood",
+        "cast": "Clint Eastwood Tommy Lee Jones Donald Sutherland James Garner James Cromwell",
+        "overview": "Frank Corvin, ‘Hawk’ Hawkins, Jerry O'Neill and ‘Tank’ Sullivan were hotdog members of Project Daedalus, the Air Force's test program for space travel, but their hopes were dashed in 1958 with the formation of NASA and the use of trained chimps. They blackmail their way into orbit when Russia's mysterious ‘Ikon’ communications satellite's orbit begins to degrade and threatens to crash to Earth.",
+        "score": 0.45120853185653687
+      },
+      {
+        "movie_id": 9570,
+        "title": "The Black Hole",
+        "year": "1979",
+        "genres": "Adventure Family Science Fiction Action",
+        "director": "Gary Nelson",
+        "cast": "Maximilian Schell Anthony Perkins Robert Forster Joseph Bottoms Ernest Borgnine",
+        "overview": "The explorer craft U.S.S. Palomino is returning to Earth after a fruitless 18-month search for extra-terrestrial life when the crew comes upon a supposedly lost ship, the magnificent U.S.S. Cygnus, hovering near a black hole. The ship is controlled by Dr. Hans Reinhardt and his monstrous robot companion, Maximillian. But the initial wonderment and awe the Palomino crew feel for the ship and its resistance to the power of the black hole turn to horror as they uncover Reinhardt's plans.",
+        "score": 0.4493706524372101
+      },
+      {
+        "movie_id": 2157,
+        "title": "Lost in Space",
+        "year": "1998",
+        "genres": "Adventure Family Science Fiction",
+        "director": "Stephen Hopkins",
+        "cast": "Gary Oldman William Hurt Matt LeBlanc Mimi Rogers Heather Graham",
+        "overview": "The prospects for continuing life on Earth in the year 2058 are grim. So the Robinsons are launched into space to colonize Alpha Prime, the only other inhabitable planet in the galaxy. But when a stowaway sabotages the mission, the Robinsons find themselves hurtling through uncharted space.",
+        "score": 0.43968263268470764
+      },
+      {
+        "movie_id": 20856,
+        "title": "Aliens in the Attic",
+        "year": "2009",
+        "genres": "Adventure Comedy Family Fantasy Science Fiction",
+        "director": "John Schultz",
+        "cast": "Carter Jenkins Austin Butler Kevin Nealon Robert Hoffman Doris Roberts",
+        "overview": "It's summer vacation, but the Pearson family kids are stuck at a boring lake house with their nerdy parents. That is until feisty, little, green aliens crash-land on the roof, with plans to conquer the house AND Earth! Using only their wits, courage and video game-playing skills, the youngsters must band together to defeat the aliens and save the world - but the toughest part might be keeping the whole thing a secret from their parents! Featuring an all-star cast including Ashley Tisdale, Andy Richter, Kevin Nealon, Tim Meadows and Doris Roberts, Aliens In The Attic is the most fun you can have on this planet!",
+        "score": 0.4318237006664276
+      },
+      {
+        "movie_id": 77156,
+        "title": "Alien Zone",
+        "year": "1978",
+        "genres": "Horror Action Thriller Science Fiction",
+        "director": "Sharron Miller",
+        "cast": "John Ericson Ivor Francis Judith Novgrod Burr DeBenning Charles Aidman",
+        "overview": "A man who is having an affair with a married woman is dropped off on the wrong street when going back to his hotel. He takes refuge out of the rain when an old man invites him in. He turns out to be a mortician, who tells him the stories of the people who have wound up in his establishment over the course of four stories.",
+        "score": 0.429516077041626
+      },
+      {
+        "movie_id": 9348,
+        "title": "Species",
+        "year": "1995",
+        "genres": "Science Fiction Horror Action",
+        "director": "Roger Donaldson",
+        "cast": "Natasha Henstridge Ben Kingsley Michael Madsen Alfred Molina Forest Whitaker",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "score": 0.42558252811431885
+      },
+      {
+        "movie_id": 846,
+        "title": "The X Files",
+        "year": "1998",
+        "genres": "Mystery Science Fiction Thriller",
+        "director": "Rob Bowman",
+        "cast": "David Duchovny Gillian Anderson Mitch Pileggi William B. Davis John Neville",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "score": 0.42520561814308167
+      },
+      {
+        "movie_id": 75,
+        "title": "Mars Attacks!",
+        "year": "1996",
+        "genres": "Comedy Fantasy Science Fiction",
+        "director": "Tim Burton",
+        "cast": "Jack Nicholson Glenn Close Annette Bening Pierce Brosnan Danny DeVito",
+        "overview": "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s.",
+        "score": 0.42507755756378174
+      },
+      {
+        "movie_id": 168,
+        "title": "Star Trek IV: The Voyage Home",
+        "year": "1986",
+        "genres": "Science Fiction Adventure",
+        "director": "Leonard Nimoy",
+        "cast": "William Shatner Leonard Nimoy DeForest Kelley James Doohan George Takei",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "score": 0.4246964454650879
+      },
+      {
+        "movie_id": 146631,
+        "title": "U.F.O.",
+        "year": "2012",
+        "genres": "Action Adventure Science Fiction",
+        "director": "Dominic Burns",
+        "cast": "Bianca Bree Sean Brosnan Simon Phillips Jean-Claude Van Damme Peter Barrett",
+        "overview": "A group of friends awake one morning to find all electricity and power shut off and an immense alien aircraft hovering in the air above their heads. Suddenly this regular group of friends is battling to survive as the entire human race is threatened by the alien army hovering ominously above. Aliens announce a hostile takeover of Earth by cutting off all power and communications, prompting a small band of survivors to fight for the human race in this sci-fi action-adventure featuring Jean-Claude Van Damme",
+        "score": 0.4229082465171814
       },
       {
         "movie_id": 157336,
@@ -130,63 +570,53 @@
         "director": "Christopher Nolan",
         "cast": "Matthew McConaughey Jessica Chastain Anne Hathaway Michael Caine Casey Affleck",
         "overview": "Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
-        "score": 0.8714
+        "score": 0.4190143942832947
       },
       {
-        "movie_id": 286217,
-        "title": "The Martian",
-        "year": "2015",
-        "genres": "Drama Adventure Science Fiction",
-        "director": "Ridley Scott",
-        "cast": "Matt Damon Jessica Chastain Kristen Wiig Jeff Daniels Michael Peña",
-        "overview": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. With only meager supplies, he must draw upon his ingenuity and spirit to find a way to signal Earth that he is alive.",
-        "score": 0.8562
+        "movie_id": 16016,
+        "title": "Journey to Saturn",
+        "year": "2008",
+        "genres": "Action Adventure Animation Comedy Science Fiction",
+        "director": "Kresten Vestbjerg Andersen",
+        "cast": "Casper Christensen Frank Hvam Ali Kazim Iben Hjejle Peter Belli",
+        "overview": "A Danish crew of misfits travel to Saturn in search for natural resources. However, the planet is colonized by a ruthless army of Aliens that turn their eye on Earth and invade Denmark. Thus, the crew change their mission to liberate Denmark.",
+        "score": 0.4156426787376404
       },
       {
-        "movie_id": 19995,
-        "title": "Avatar",
+        "movie_id": 15512,
+        "title": "Monsters vs Aliens",
         "year": "2009",
-        "genres": "Action Adventure Fantasy Science Fiction",
-        "director": "James Cameron",
-        "cast": "Sam Worthington Zoe Saldana Sigourney Weaver Stephen Lang Michelle Rodriguez",
-        "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
-        "score": 0.8291
+        "genres": "Animation Family Adventure Science Fiction",
+        "director": "Conrad Vernon",
+        "cast": "Seth Rogen Reese Witherspoon Hugh Laurie Paul Rudd Kiefer Sutherland",
+        "overview": "When Susan Murphy is unwittingly clobbered by a meteor full of outer space gunk on her wedding day, she mysteriously grows to 49-feet-11-inches. The military jumps into action and captures Susan, secreting her away to a covert government compound. She is renamed Ginormica and placed in confinement with a ragtag group of Monsters...",
+        "score": 0.40807783603668213
       },
       {
-        "movie_id": 49529,
-        "title": "John Carter",
-        "year": "2012",
+        "movie_id": 10208,
+        "title": "Muppets from Space",
+        "year": "1999",
+        "genres": "Fantasy Comedy Science Fiction Family",
+        "director": "Tim Hill",
+        "cast": "Steve Whitmire Dave Goelz Bill Barretta Frank Oz Jerry Nelson",
+        "overview": "When Gonzo's breakfast cereal tells him that he's the descendant of aliens from another planet, his attempts at extraterrestrial communication get him kidnapped by a secret government agency, prompting the Muppets to spring into action. It's hard to believe Gonzo's story at first, but Kermit and friends soon find themselves on an epic journey into outer space filled with plenty of intergalactic misadventures.",
+        "score": 0.4070366621017456
+      },
+      {
+        "movie_id": 188927,
+        "title": "Star Trek Beyond",
+        "year": "2016",
         "genres": "Action Adventure Science Fiction",
-        "director": "Andrew Stanton",
-        "cast": "Taylor Kitsch Lynn Collins Samantha Morton Willem Dafoe Thomas Haden Church",
-        "overview": "A war-weary former military captain is inexplicably transported to the mysterious planet of Barsoom (Mars) and reluctantly becomes embroiled in an epic conflict between alien civilizations on a world on the brink of collapse.",
-        "score": 0.7034
+        "director": "Justin Lin",
+        "cast": "Chris Pine Zachary Quinto Karl Urban Simon Pegg Zoe Saldana",
+        "overview": "The USS Enterprise crew explores the furthest reaches of uncharted space, where they encounter a mysterious new enemy who puts them and everything the Federation stands for to the test.",
+        "score": 0.39912179112434387
       }
     ]
   },
   {
-    "query": "animated movie for kids with animals",
+    "query": "animated kids movie with animals",
     "results": [
-      {
-        "movie_id": 12,
-        "title": "Finding Nemo",
-        "year": "2003",
-        "genres": "Animation Family",
-        "director": "Andrew Stanton",
-        "cast": "Albert Brooks Ellen DeGeneres Alexander Gould Willem Dafoe Brad Garrett",
-        "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring him home — meeting vegetarian sharks, surfer dude turtles, and hungry seagulls along the way.",
-        "score": 0.9124
-      },
-      {
-        "movie_id": 8587,
-        "title": "The Lion King",
-        "year": "1994",
-        "genres": "Family Animation Drama",
-        "director": "Roger Allers",
-        "cast": "Jonathan Taylor Thomas Matthew Broderick James Earl Jones Jeremy Irons Moira Kelly",
-        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it. When tragedy strikes, Simba flees and must one day return to face his destiny.",
-        "score": 0.8913
-      },
       {
         "movie_id": 953,
         "title": "Madagascar",
@@ -194,28 +624,608 @@
         "genres": "Family Animation",
         "director": "Eric Darnell",
         "cast": "Ben Stiller Chris Rock David Schwimmer Jada Pinkett Smith Sacha Baron Cohen",
-        "overview": "After escaping from the zoo, four friends — a lion, a hippo, a zebra and a giraffe — are sent back to Africa. When their ship capsizes, stranding them on Madagascar, the pals must adapt to jungle life and their new roles as wild animals.",
-        "score": 0.8672
+        "overview": "Zoo animals leave the comforts of man-made habitats for exotic adventure in this animated family film. After escaping from the zoo, four friends -- a lion, a hippo, a zebra and a giraffe -- are sent back to Africa. When their ship capsizes, stranding them on Madagascar, an island populated by crazy critters, the pals must adapt to jungle life and their new roles as wild animals.",
+        "score": 0.5993451476097107
       },
       {
-        "movie_id": 425,
-        "title": "Ice Age",
+        "movie_id": 10992,
+        "title": "Cats & Dogs",
+        "year": "2001",
+        "genres": "Comedy Family",
+        "director": "Lawrence Guterman",
+        "cast": "Jeff Goldblum Elizabeth Perkins Alexander Pollock Miriam Margolyes Tobey Maguire",
+        "overview": "When a professor develops a vaccine that eliminates human allergies to dogs, he unwittingly upsets the fragile balance of power between cats and dogs and touches off an epic battle for pet supremacy. The fur flies as the feline faction, led by Mr. Tinkles, squares off against wide-eyed puppy Lou and his canine cohorts.",
+        "score": 0.5482083559036255
+      },
+      {
+        "movie_id": 15173,
+        "title": "Jonah: A VeggieTales Movie",
         "year": "2002",
-        "genres": "Animation Comedy Family Adventure",
-        "director": "Chris Wedge",
-        "cast": "Ray Romano John Leguizamo Denis Leary Goran Visnjic Jack Black",
-        "overview": "With the impending ice age almost upon them, a mismatched trio of prehistoric critters — Manny the woolly mammoth, Diego the saber-toothed tiger and Sid the giant sloth — find an orphaned infant and decide to return it to its human parents.",
-        "score": 0.8431
+        "genres": "Action Adventure Animation Comedy Family Fantasy Romance",
+        "director": "Phil Vischer",
+        "cast": "Phil Vischer Mike Nawrocki Tim Hodge Lisa Vischer Daniel Anderson",
+        "overview": "Get ready as Bob the Tomato, Larry the Cucumber and the rest of the Veggies set sail on a whale of an adventure in Big Idea's first full-length, 3-D animated feature film. This is the story of Jonah and the Whale as you've never seen it before - a story where we learn that one of the best gifts you can give - or get - is a second chance.",
+        "score": 0.45187363028526306
       },
       {
-        "movie_id": 862,
-        "title": "Toy Story",
-        "year": "1995",
+        "movie_id": 30979,
+        "title": "The Horse Boy",
+        "year": "2009",
+        "genres": "Documentary",
+        "director": "Michel O. Scott",
+        "cast": "Simon Baron-Cohen Temple Grandin Roy Richard Grinker Rowan Isaacson Rupert Isaacson",
+        "overview": "Filmmaker Michel Orion Scott captures a magical journey into a little-known world, in a documentary which chronicles Rupert Isaacson and Kristin Neff's personal odyssey to make sense of their child's autism, and find healing for him and themselves in the unlikeliest of places.",
+        "score": 0.43327492475509644
+      },
+      {
+        "movie_id": 15582,
+        "title": "Teen Wolf Too",
+        "year": "1987",
+        "genres": "Comedy Fantasy Family",
+        "director": "Christopher Leitch",
+        "cast": "Jason Bateman Kim Darby John Astin Mark Holton Estee Chandler",
+        "overview": "Although awkward college student Todd Howard is particularly adept at science, he's paying for school with an athletic scholarship that he will lose should he not fare well in an upcoming boxing tournament. Luckily for Todd, he has inherited the same family curse that once turned his cousin into a werewolf. As he transforms into the hairy, fanged, howling monster, he finds both his physical agility and his popularity skyrocketing -- but at what cost?",
+        "score": 0.4268495440483093
+      },
+      {
+        "movie_id": 52032,
+        "title": "My Dog Tulip",
+        "year": "2009",
+        "genres": "Animation Comedy Drama",
+        "director": "Paul Fierlinger",
+        "cast": "Christopher Plummer Lynn Redgrave Isabella Rossellini Peter Gerety Brian Murray",
+        "overview": "The story of a man who rescues a German shepherd and how the two become fast friends.",
+        "score": 0.4218689799308777
+      },
+      {
+        "movie_id": 4244,
+        "title": "The Kid",
+        "year": "2000",
+        "genres": "Fantasy Comedy Family",
+        "director": "Jon Turteltaub",
+        "cast": "Bruce Willis Spencer Breslin Emily Mortimer Lily Tomlin Chi McBride",
+        "overview": "Powerful businessman Russ Duritz is self-absorbed and immersed in his work. But by the magic of the moon, he meets Rusty, a chubby, charming 8-year-old version of himself who can't believe he could turn out so badly -- with no life and no dog. With Rusty's help, Russ is able to reconcile the person he used to dream of being with the man he's actually become.",
+        "score": 0.420194149017334
+      },
+      {
+        "movie_id": 19585,
+        "title": "G-Force",
+        "year": "2009",
+        "genres": "Fantasy Action Adventure Family Comedy",
+        "director": "Hoyt Yeatman",
+        "cast": "Sam Rockwell Penélope Cruz Tracy Morgan Jon Favreau Steve Buscemi",
+        "overview": "A team of trained secret agent animals, guinea pigs Darwin, Juarez, Blaster, mole Speckles, and fly Mooch takes on a mission for the US government to stop evil Leonard Saber, who plans to destroy the world with household appliances. But the government shuts them down and they are sentenced to a pet shop. Can they escape to defeat the villain and save the world?",
+        "score": 0.419633150100708
+      },
+      {
+        "movie_id": 129,
+        "title": "Spirited Away",
+        "year": "2001",
+        "genres": "Fantasy Adventure Animation Family",
+        "director": "Hayao Miyazaki",
+        "cast": "Rumi Hiiragi Miyu Irino Mari Natsuki Takashi Naito Yasuko Sawaguchi",
+        "overview": "A ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?",
+        "score": 0.41451093554496765
+      },
+      {
+        "movie_id": 74465,
+        "title": "We Bought a Zoo",
+        "year": "2011",
+        "genres": "Drama Comedy Family",
+        "director": "Cameron Crowe",
+        "cast": "Matt Damon Scarlett Johansson Thomas Haden Church Colin Ford Maggie Elizabeth Jones",
+        "overview": "Benjamin has lost his wife and, in a bid to start his life over, purchases a large house that has a zoo – welcome news for his daughter, but his son is not happy about it. The zoo is need of renovation and Benjamin sets about the work with the head keeper and the rest of the staff, but, the zoo soon runs into financial trouble.",
+        "score": 0.4128172695636749
+      },
+      {
+        "movie_id": 808,
+        "title": "Shrek",
+        "year": "2001",
+        "genres": "Adventure Animation Comedy Family Fantasy",
+        "director": "Andrew Adamson",
+        "cast": "Mike Myers Eddie Murphy Cameron Diaz John Lithgow Vincent Cassel",
+        "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+        "score": 0.4127066135406494
+      },
+      {
+        "movie_id": 62837,
+        "title": "Dolphin Tale",
+        "year": "2011",
+        "genres": "Drama Family",
+        "director": "Charles Martin Smith",
+        "cast": "Morgan Freeman Ashley Judd Harry Connick Jr. Nathan Gamble Kris Kristofferson",
+        "overview": "A story centered on the friendship between a boy and a dolphin whose tail was lost in a crab trap.",
+        "score": 0.41237497329711914
+      },
+      {
+        "movie_id": 10481,
+        "title": "102 Dalmatians",
+        "year": "2000",
+        "genres": "Comedy Family",
+        "director": "Kevin Lima",
+        "cast": "Glenn Close Ioan Gruffudd Alice Evans Tim McInnerny Gérard Depardieu",
+        "overview": "Get ready for a howling good time as an all new assortment of irresistible animal heroes are unleashed in this great family tail! In an unlikely alliance, the outrageous Waddlesworth... a parrot who thinks he's a Rottweiler... teams up with Oddball... an un-marked Dalmation puppy eager to earn her spots! Together they embark on a laugh-packed quest to outwit the ever-scheming Cruella De Vil",
+        "score": 0.41167545318603516
+      },
+      {
+        "movie_id": 927,
+        "title": "Gremlins",
+        "year": "1984",
+        "genres": "Fantasy Horror Comedy",
+        "director": "Joe Dante",
+        "cast": "Zach Galligan Phoebe Cates Hoyt Axton Polly Holliday Dick Miller",
+        "overview": "When Billy Peltzer is given a strange but adorable pet named Gizmo for Christmas, he inadvertently breaks the three important rules of caring for a Mogwai, and unleashes a horde of mischievous gremlins on a small town.",
+        "score": 0.40498900413513184
+      },
+      {
+        "movie_id": 15189,
+        "title": "Hotel for Dogs",
+        "year": "2009",
+        "genres": "Comedy Family",
+        "director": "Thor Freudenthal",
+        "cast": "Emma Roberts Jake T. Austin Don Cheadle Johnny Simmons Kyla Pratt",
+        "overview": "Placed in a foster home that doesn't allow pets, 16-year-old Andi and her younger brother, Bruce, turn an abandoned hotel into a home for their dog. Soon other strays arrive, and the hotel becomes a haven for every orphaned canine in town. But the kids have to do some quick thinking to keep the cops off their tails.",
+        "score": 0.40086519718170166
+      },
+      {
+        "movie_id": 586,
+        "title": "Wag the Dog",
+        "year": "1997",
+        "genres": "Comedy Drama",
+        "director": "Barry Levinson",
+        "cast": "Dustin Hoffman Robert De Niro Anne Heche Woody Harrelson Jim Belushi",
+        "overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war.",
+        "score": 0.3995121717453003
+      },
+      {
+        "movie_id": 35169,
+        "title": "Furry Vengeance",
+        "year": "2010",
+        "genres": "Comedy",
+        "director": "Roger Kumble",
+        "cast": "Brendan Fraser Ken Jeong Brooke Shields Angela Kinsey Rob Riggle",
+        "overview": "When real estate developer Dan Sanders finalizes plans to level a swath of pristine Oregon forest to make way for a soulless housing subdivision, a band of woodland creatures rises up to throw a monkey wrench into the greedy scheme. Just how much mischief from the furry critters can the businessman take before he calls it quits?",
+        "score": 0.399014413356781
+      },
+      {
+        "movie_id": 28178,
+        "title": "Hachi: A Dog's Tale",
+        "year": "2009",
+        "genres": "Drama Family",
+        "director": "Lasse Hallström",
+        "cast": "Richard Gere Joan Allen Jason Alexander Cary-Hiroyuki Tagawa Sarah Roemer",
+        "overview": "A drama based on the true story of a college professor's bond with the abandoned dog he takes into his home.",
+        "score": 0.39744120836257935
+      },
+      {
+        "movie_id": 585,
+        "title": "Monsters, Inc.",
+        "year": "2001",
         "genres": "Animation Comedy Family",
-        "director": "John Lasseter",
-        "cast": "Tom Hanks Tim Allen Don Rickles Jim Varney Wallace Shawn",
-        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate them from their owner, the duo learns to put aside their differences.",
-        "score": 0.8215
+        "director": "Pete Docter",
+        "cast": "John Goodman Billy Crystal Mary Gibbs Steve Buscemi James Coburn",
+        "overview": "James Sullivan and Mike Wazowski are monsters, they earn their living scaring children and are the best in the business... even though they're more afraid of the children than they are of them. When a child accidentally enters their world, James and Mike suddenly find that kids are not to be afraid of and they uncover a conspiracy that could threaten all children across the world.",
+        "score": 0.3951420187950134
+      },
+      {
+        "movie_id": 49519,
+        "title": "The Croods",
+        "year": "2013",
+        "genres": "Adventure Animation Comedy Family Fantasy",
+        "director": "Chris Sanders",
+        "cast": "Nicolas Cage Emma Stone Ryan Reynolds Catherine Keener Cloris Leachman",
+        "overview": "The Croods is a prehistoric comedy adventure that follows the world's first family as they embark on a journey of a lifetime when the cave that has always shielded them from danger is destroyed. Traveling across a spectacular landscape, the Croods discover an incredible new world filled with fantastic creatures -- and their outlook is changed forever.",
+        "score": 0.3947696089744568
+      }
+    ]
+  },
+  {
+    "query": "action hero saves the world",
+    "results": [
+      {
+        "movie_id": 49478,
+        "title": "Warriors of Virtue",
+        "year": "1997",
+        "genres": "Fantasy Family Action",
+        "director": "Ronny Yu",
+        "cast": "Angus Macfadyen Mario Yedidia Marley Shelton Chao Li Chi",
+        "overview": "A young man, Ryan, suffering from a disability, wishes to join the other kids from his schools football team. During an initiation rite, Ryan is swept away through a whirlpool to the land of Tao. There he is hunted by the evil Lord Komodo, who desires the boy as a key to enter the real world. Ryan is rescued by the protectors of Tao, five humanoid kangaroos, each embued with the five elements and virtues. Ryan learns his valuable lesson while saving the land of Tao.",
+        "score": 0.36035603284835815
+      },
+      {
+        "movie_id": 1620,
+        "title": "Hitman",
+        "year": "2007",
+        "genres": "Action Crime Drama Thriller",
+        "director": "Xavier Gens",
+        "cast": "Timothy Olyphant Dougray Scott Olga Kurylenko Robert Knepper Ulrich Thomsen",
+        "overview": "The best-selling videogame, Hitman, roars to life with both barrels blazing in this hardcore action-thriller starring Timothy Olyphant. A genetically engineered assassin with deadly aim, known only as \"Agent 47\" eliminates strategic targets for a top-secret organization. But when he's double-crossed, the hunter becomes the prey as 47 finds himself in a life-or-death game of international intrigue.",
+        "score": 0.3353096544742584
+      },
+      {
+        "movie_id": 27578,
+        "title": "The Expendables",
+        "year": "2010",
+        "genres": "Thriller Adventure Action",
+        "director": "Sylvester Stallone",
+        "cast": "Sylvester Stallone Jason Statham Dolph Lundgren Eric Roberts Randy Couture",
+        "overview": "Barney Ross leads a band of highly skilled mercenaries including knife enthusiast Lee Christmas, a martial arts expert, heavy weapons specialist, demolitionist, and a loose-cannon sniper. When the group is commissioned by the mysterious Mr. Church to assassinate the dictator of a small South American island, Barney and Lee visit the remote locale to scout out their opposition and discover the true nature of the conflict engulfing the city.",
+        "score": 0.33229678869247437
+      },
+      {
+        "movie_id": 4476,
+        "title": "Legends of the Fall",
+        "year": "1994",
+        "genres": "Adventure Drama Romance War",
+        "director": "Edward Zwick",
+        "cast": "Brad Pitt Anthony Hopkins Aidan Quinn Julia Ormond Henry Thomas",
+        "overview": "An epic tale of three brothers and their father living in the remote wilderness of 1900s USA and how their lives are affected by nature, history, war, and love.",
+        "score": 0.3318338096141815
+      },
+      {
+        "movie_id": 38665,
+        "title": "The Legend of the Lone Ranger",
+        "year": "1981",
+        "genres": "Action Adventure Romance Western",
+        "director": "William A. Fraker",
+        "cast": "Christopher Lloyd Matt Clark Juanin Clay Jason Robards John Bennett Perry",
+        "overview": "When the young Texas Ranger, John Reid, is the sole survivor of an ambush arranged by the militaristic outlaw leader, Butch Cavendich, he is rescued by an old childhood Comanche friend, Tonto. When he recovers from his wounds, he dedicates his life to fighting the evil that Cavendich represents. To this end, John Reid becomes the great masked western hero, The Lone Ranger. With the help of Tonto, the pair go to rescue President Grant when Cavendich takes him hostage.",
+        "score": 0.32789844274520874
+      },
+      {
+        "movie_id": 19316,
+        "title": "Saving Face",
+        "year": "2004",
+        "genres": "Comedy Romance",
+        "director": "Alice Wu",
+        "cast": "Michelle Krusiec Joan Chen Lynn Chen Ato Essandoh Jessica Hecht",
+        "overview": "A Chinese-American lesbian and her traditionalist mother are reluctant to go public with secret loves that clash against cultural expectations.",
+        "score": 0.32549646496772766
+      },
+      {
+        "movie_id": 367961,
+        "title": "Savva. Heart of the Warrior",
+        "year": "2015",
+        "genres": "Fantasy Adventure Animation",
+        "director": "Maksim Fadeev",
+        "cast": "Maksim Chukharyov Konstantin Khabenskiy Mikhail Galustyan Fyodor Bondarchuk Natalya Ionova",
+        "overview": "A fairytale about a grand life journey of a 10-year old boy Savva devoted to help his Mom and fellow village people to break free from the vicious hyenas.",
+        "score": 0.32298317551612854
+      },
+      {
+        "movie_id": 11918,
+        "title": "Superhero Movie",
+        "year": "2008",
+        "genres": "Action Comedy Science Fiction",
+        "director": "Craig Mazin",
+        "cast": "Drake Bell Sara Paxton Leslie Nielsen Christopher McDonald Jeffrey Tambor",
+        "overview": "The team behind Scary Movie takes on the comic book genre in this tale of Rick Riker, a nerdy teen imbued with superpowers by a radioactive dragonfly. And because every hero needs a nemesis, enter Lou Landers, aka the villainously goofy Hourglass.",
+        "score": 0.31911295652389526
+      },
+      {
+        "movie_id": 38055,
+        "title": "Megamind",
+        "year": "2010",
+        "genres": "Animation Action Comedy Family Science Fiction",
+        "director": "Tom McGrath",
+        "cast": "Will Ferrell Brad Pitt Tina Fey Jonah Hill David Cross",
+        "overview": "Bumbling supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find new meaning to his life.",
+        "score": 0.3181304931640625
+      },
+      {
+        "movie_id": 13193,
+        "title": "Saved!",
+        "year": "2004",
+        "genres": "Comedy Drama",
+        "director": "Brian Dannelly",
+        "cast": "Jena Malone Mandy Moore Macaulay Culkin Patrick Fugit Heather Matarazzo",
+        "overview": "Teenage Mary Cummings, who has \"been Born Again her whole life,\" is about to enter her senior year at American Eagle Christian High School near Baltimore with her Fundamentalist Christian friends Hilary Faye and Veronica, the three of whom have formed a girl group called the Christian Jewels. Everything seems perfect—until Mary’s \"perfect Christian boyfriend\" Dean tells her, as they’re swimming underwater, that he thinks he's gay.",
+        "score": 0.31558457016944885
+      },
+      {
+        "movie_id": 8656,
+        "title": "Deep Impact",
+        "year": "1998",
+        "genres": "Action Drama Romance",
+        "director": "Mimi Leder",
+        "cast": "Robert Duvall Téa Leoni Elijah Wood Vanessa Redgrave Morgan Freeman",
+        "overview": "A seven-mile-wide space rock is hurtling toward Earth, threatening to obliterate the planet. Now, it's up to the president of the United States to save the world. He appoints a tough-as-nails veteran astronaut to lead a joint American-Russian crew into space to destroy the comet before impact. Meanwhile, an enterprising reporter uses her smarts to uncover the scoop of the century.",
+        "score": 0.3148444890975952
+      },
+      {
+        "movie_id": 64686,
+        "title": "47 Ronin",
+        "year": "2013",
+        "genres": "Drama Action Adventure Fantasy",
+        "director": "Carl Rinsch",
+        "cast": "Keanu Reeves Hiroyuki Sanada Kou Shibasaki Tadanobu Asano Min Tanaka",
+        "overview": "Based on the original 1941 movie from Japan, and from ancient Japan’s most enduring tale, the epic 3D fantasy-adventure 47 Ronin is born.  Keanu Reeves leads the cast as Kai, an outcast who joins Oishi (Hiroyuki Sanada), the leader of the 47 outcast samurai.  Together they seek vengeance upon the treacherous overlord who killed their master and banished their kind.  To restore honor to their homeland, the warriors embark upon a quest that challenges them with a series of trials that would destroy ordinary warriors.",
+        "score": 0.3127628266811371
+      },
+      {
+        "movie_id": 152747,
+        "title": "All Is Lost",
+        "year": "2013",
+        "genres": "Action Adventure Drama",
+        "director": "J.C. Chandor",
+        "cast": "Robert Redford",
+        "overview": "Deep into a solo voyage in the Indian Ocean, an unnamed man (Redford) wakes to find his 39-foot yacht taking on water after a collision with a shipping container left floating on the high seas. With his navigation equipment and radio disabled, the man sails unknowingly into the path of a violent storm. Despite his success in patching the breached hull, his mariner's intuition and a strength that belies his age, the man barely survives the tempest. Using only a sextant and nautical maps to chart his progress, he is forced to rely on ocean currents to carry him into a shipping lane in hopes of hailing a passing vessel. But with the sun unrelenting, sharks circling and his meager supplies dwindling, the ever-resourceful sailor soon finds himself staring his mortality in the face.",
+        "score": 0.312511682510376
+      },
+      {
+        "movie_id": 1452,
+        "title": "Superman Returns",
+        "year": "2006",
+        "genres": "Adventure Fantasy Action Science Fiction",
+        "director": "Bryan Singer",
+        "cast": "Brandon Routh Kevin Spacey Kate Bosworth James Marsden Parker Posey",
+        "overview": "Superman returns to discover his 5-year absence has allowed Lex Luthor to walk free, and that those he was closest too felt abandoned and have moved on. Luthor plots his ultimate revenge that could see millions killed and change the face of the planet forever, as well as ridding himself of the Man of Steel.",
+        "score": 0.3119097650051117
+      },
+      {
+        "movie_id": 11667,
+        "title": "Street Fighter",
+        "year": "1994",
+        "genres": "Action Adventure Thriller",
+        "director": "Steven E. de Souza",
+        "cast": "Jean-Claude Van Damme Raúl Juliá Ming-Na Wen Damian Chapa Kylie Minogue",
+        "overview": "Col. Guile and various other martial arts heroes fight against the tyranny of Dictator M. Bison and his cohorts.",
+        "score": 0.3111881613731384
+      },
+      {
+        "movie_id": 10878,
+        "title": "Saving Silverman",
+        "year": "2001",
+        "genres": "Comedy Crime Romance",
+        "director": "Dennis Dugan",
+        "cast": "Jason Biggs Steve Zahn Jack Black Amanda Peet Amanda Detmer",
+        "overview": "A pair of buddies conspire to save their best friend from marrying the wrong woman, a cold-hearted beauty who snatches him from them and breaks up their Neil Diamond cover band.",
+        "score": 0.3110285997390747
+      },
+      {
+        "movie_id": 39514,
+        "title": "RED",
+        "year": "2010",
+        "genres": "Action Adventure Comedy Crime Thriller",
+        "director": "Robert Schwentke",
+        "cast": "Bruce Willis John Malkovich Helen Mirren Mary-Louise Parker Karl Urban",
+        "overview": "When his peaceful life is threatened by a high-tech assassin, former black-ops agent, Frank Moses reassembles his old team in a last ditch effort to survive and uncover his assailants.",
+        "score": 0.3085136413574219
+      },
+      {
+        "movie_id": 5491,
+        "title": "Battlefield Earth",
+        "year": "2000",
+        "genres": "Action Science Fiction War",
+        "director": "Roger Christian",
+        "cast": "John Travolta Barry Pepper Forest Whitaker Kim Coates Sabine Karsenti",
+        "overview": "In the year 3000, man is no match for the Psychlos, a greedy, manipulative race of aliens on a quest for ultimate profit. Led by the powerful Terl, the Psychlos are stripping Earth clean of its natural resources, using the broken remnants of humanity as slaves. What is left of the human race has descended into a near primitive state. After being captured, it is up to Tyler to save mankind.",
+        "score": 0.3081797957420349
+      },
+      {
+        "movie_id": 27582,
+        "title": "The Mechanic",
+        "year": "2011",
+        "genres": "Action Thriller Crime",
+        "director": "Simon West",
+        "cast": "Jason Statham Ben Foster Donald Sutherland Mini Anden Tony Goldwyn",
+        "overview": "Arthur Bishop is a 'mechanic' - an elite assassin with a strict code and unique talent for cleanly eliminating targets. It's a job that requires professional perfection and total detachment, and Bishop is the best in the business. But when he is ordered to take out his mentor and close friend Harry, Bishop is anything but detached.",
+        "score": 0.30360957980155945
+      },
+      {
+        "movie_id": 300168,
+        "title": "Dragon Blade",
+        "year": "2015",
+        "genres": "Action Drama Adventure",
+        "director": "Daniel Lee",
+        "cast": "Jackie Chan John Cusack Adrien Brody Sharni Vinson Benny Urquidez",
+        "overview": "Huo An, the commander of the Protection Squad of the Western Regions, was framed by evil forces and becomes enslaved. On the other hand, a Roman general escapes to China after rescuing the Prince. The heroic duo meet in the Western Desert and a thrilling story unfolds.",
+        "score": 0.3025856018066406
+      }
+    ]
+  },
+  {
+    "query": "comedy about friendship and growing up",
+    "results": [
+      {
+        "movie_id": 198370,
+        "title": "Mutual Friends",
+        "year": "2014",
+        "genres": "",
+        "director": "Matthew Watts",
+        "cast": "Caitlin Fitzgerald Cheyenne Jackson Peter Scanavino Michael Stahl-David Christina Cole",
+        "overview": "Surprise parties rarely go well. This one is no different, as a group of 30-somethings head through life, love and a day in New York City.",
+        "score": 0.48835045099258423
+      },
+      {
+        "movie_id": 71552,
+        "title": "American Reunion",
+        "year": "2012",
+        "genres": "Comedy",
+        "director": "Jon Hurwitz",
+        "cast": "Jason Biggs Alyson Hannigan Seann William Scott Chris Klein Thomas Ian Nicholas",
+        "overview": "The characters we met a little more than a decade ago are returning to East Great Falls for their high-school reunion. In one long-overdue weekend, they will discover what has changed, who hasn’t and that time and distance can’t break the bonds of friendship. It was summer 1999 when four small-town Michigan boys began a quest to lose their virginity. In the years that have passed, Jim and Michelle married while Kevin and Vicky said goodbye. Oz and Heather grew apart, but Finch still longs for Stifler’s mom. Now these lifelong friends have come home as adults to reminisce about – and get inspired by – the hormonal teens who launched a comedy legend.",
+        "score": 0.4801914095878601
+      },
+      {
+        "movie_id": 426469,
+        "title": "Growing Up Smith",
+        "year": "2017",
+        "genres": "Comedy Family Drama",
+        "director": "Frank Lotito",
+        "cast": "Roni Akurati Brighton Sharbino Jason Lee Anjul Nigam Hilarie Burton",
+        "overview": "In 1979, an Indian family moves to America with hopes of living the American Dream. While their 10-year-old boy Smith falls head-over-heels for the girl next door, his desire to become a \"good old boy\" propels him further away from his family's ideals than ever before.",
+        "score": 0.46247515082359314
+      },
+      {
+        "movie_id": 13596,
+        "title": "My Best Friend's Girl",
+        "year": "2008",
+        "genres": "Romance Comedy",
+        "director": "Howard Deutch",
+        "cast": "Dane Cook Kate Hudson Alec Baldwin Jason Biggs Diora Baird",
+        "overview": "When Dustin's girlfriend, Alexis, breaks up with him, he employs his best buddy, Tank, to take her out on the worst rebound date imaginable in the hopes that it will send her running back into his arms. But when Tank begins to really fall for Alexis, he finds himself in an impossible position.",
+        "score": 0.4607410430908203
+      },
+      {
+        "movie_id": 195589,
+        "title": "Neighbors",
+        "year": "2014",
+        "genres": "Comedy",
+        "director": "Nicholas Stoller",
+        "cast": "Seth Rogen Zac Efron Rose Byrne Dave Franco Ike Barinholtz",
+        "overview": "A couple with a newborn baby face unexpected difficulties after they are forced to live next to a fraternity house.",
+        "score": 0.4320145845413208
+      },
+      {
+        "movie_id": 24684,
+        "title": "An Education",
+        "year": "2009",
+        "genres": "Drama Romance",
+        "director": "Lone Scherfig",
+        "cast": "Carey Mulligan Olivia Williams Peter Sarsgaard Alfred Molina Cara Seymour",
+        "overview": "A coming-of-age story about a teenage girl in 1960s suburban London, and how her life changes with the arrival of a playboy nearly twice her age.",
+        "score": 0.42974913120269775
+      },
+      {
+        "movie_id": 11023,
+        "title": "Thirteen",
+        "year": "2003",
+        "genres": "Crime Drama",
+        "director": "Catherine Hardwicke",
+        "cast": "Evan Rachel Wood Nikki Reed Vanessa Hudgens Holly Hunter Brady Corbet",
+        "overview": "Tracy is a normal 13-year-old trying to make it in school. After befriending the most popular girl at school, Evie, Tracy's world is turned upside down when Evie introduces her to a world of sex, drugs and cash. But it isn't long before Tracy's new world and attitude finally takes a toll on her, her family, and old friends.",
+        "score": 0.42832258343696594
+      },
+      {
+        "movie_id": 4032,
+        "title": "My Girl",
+        "year": "1991",
+        "genres": "Comedy Drama Family",
+        "director": "Howard Zieff",
+        "cast": "Anna Chlumsky Macaulay Culkin Dan Aykroyd Jamie Lee Curtis Richard Masur",
+        "overview": "Vada Sultenfuss is obsessed with death. Her mother is dead, and her father runs a funeral parlor. She is also in love with her English teacher, and joins a poetry class over the summer just to impress him. Thomas J., her best friend, is \"allergic to everything\", and sticks with Vada despite her hangups. When Vada's father hires Shelly, and begins to fall for her, things take a turn to the worse...",
+        "score": 0.42047783732414246
+      },
+      {
+        "movie_id": 22327,
+        "title": "Youth in Revolt",
+        "year": "2009",
+        "genres": "Drama Comedy Romance",
+        "director": "Miguel Arteta",
+        "cast": "Michael Cera Zach Galifianakis Justin Long Ray Liotta Steve Buscemi",
+        "overview": "Nick Twisp (Michael Cera), a teen with a taste for the finer things in life like Sinatra and Fellini, falls hopelessly in love with the beautiful, free-spirited Sheeni Saunders (Portia Doubleday) while on a family vacation.  But family, geography and jealous ex-lovers conspire to keep these two apart. Nick abandons his dull, predictable life and develops a rebellious alter ego: François.  With his ascot, his moustache and his cigarette, François will stop at nothing to be with Sheeni, and leads Nick on a path of destruction with unpredictable consequences..",
+        "score": 0.4090258777141571
+      },
+      {
+        "movie_id": 59968,
+        "title": "Our Idiot Brother",
+        "year": "2011",
+        "genres": "Comedy Drama",
+        "director": "Jesse Peretz",
+        "cast": "Paul Rudd Elizabeth Banks Zooey Deschanel Emily Mortimer Adam Scott",
+        "overview": "Everybody has the sibling who is always just a little bit behind the curve when it comes to getting his life together. For sisters Liz, Miranda and Natalie, that person is their perennially upbeat brother Ned, an erstwhile organic farmer whose willingness to rely on the honesty of mankind is a less-than-optimum strategy for a tidy, trouble-free existence. Ned may be utterly lacking in common sense, but he is their brother and so, after his girlfriend dumps him and boots him off the farm, his sisters once again come to his rescue. As Liz, Miranda and Natalie each take a turn at housing Ned, their brother's unfailing commitment to honesty creates more than a few messes in their comfortable routines. But as each of their lives begins to unravel, Ned's family comes to realize that maybe, in believing and trusting the people around him, Ned isn't such an idiot after all.",
+        "score": 0.40723609924316406
+      },
+      {
+        "movie_id": 10981,
+        "title": "Nothing",
+        "year": "2003",
+        "genres": "Comedy Fantasy Science Fiction",
+        "director": "Vincenzo Natali",
+        "cast": "David Hewlett Andrew Miller Gordon Pinsent Marie-Josée Croze",
+        "overview": "The film tells the story of two good friends who live together, Andrew (Andrew Miller), an agoraphobic travel agent who works from his home, and Dave (David Hewlett), a loser who works in an office where he is treated with contempt. Just when it seems things can't get any worse for the two, the entire world outside of their house disappears and is replaced with an endless white void.",
+        "score": 0.4070618152618408
+      },
+      {
+        "movie_id": 111190,
+        "title": "Adore",
+        "year": "2013",
+        "genres": "Drama",
+        "director": "Anne Fontaine",
+        "cast": "Naomi Watts Robin Wright Xavier Samuel James Frecheville Ben Mendelsohn",
+        "overview": "Lil and Roz are two lifelong friends, having grown up together as neighbors in an idyllic beach town. As adults, their sons have developed a friendship as strong as that which binds their mothers. One summer, all four are confronted by simmering emotions that have been mounting between them, and each find unexpected happiness in relationships that cross the bounds of convention.",
+        "score": 0.4069146513938904
+      },
+      {
+        "movie_id": 42057,
+        "title": "It's a Wonderful Afterlife",
+        "year": "2010",
+        "genres": "Comedy Romance",
+        "director": "Gurinder Chadha",
+        "cast": "Shabana Azmi Goldy Notay Sendhil Ramamurthy Sally Hawkins Mark Addy",
+        "overview": "Indian mother Mrs Sethi's (Azmi) obsession with marrying off her daughter turns murderous. With jokes that routinely miss the mark and cringeworthy slapstick, this black comedy farce shouldn't work. Somehow, though, it does. (c) Empire Magazine",
+        "score": 0.4049627184867859
+      },
+      {
+        "movie_id": 158895,
+        "title": "This Is Martin Bonner",
+        "year": "2013",
+        "genres": "Drama",
+        "director": "Chad Hartigan",
+        "cast": "Paul Eenhoorn Richmond Arquette Sam Buchanan Robert Longstreet Kristin Slaysman",
+        "overview": "Two men, at opposite ends of the social spectrum, find themselves starting new lives in the same, small town and form an unlikely friendship.",
+        "score": 0.400704026222229
+      },
+      {
+        "movie_id": 239678,
+        "title": "This Is Where I Leave You",
+        "year": "2014",
+        "genres": "Drama Comedy",
+        "director": "Shawn Levy",
+        "cast": "Jason Bateman Tina Fey Adam Driver Rose Byrne Corey Stoll",
+        "overview": "When their father passes away, four grown, world-weary siblings return to their childhood home and are requested -- with an admonition -- to stay there together for a week, along with their free-speaking mother and a collection of spouses, exes and might-have-beens. As the brothers and sisters re-examine their shared history and the status of each tattered relationship among those who know and love them best, they reconnect in hysterically funny and emotionally significant ways.",
+        "score": 0.39960771799087524
+      },
+      {
+        "movie_id": 27845,
+        "title": "Trees Lounge",
+        "year": "1996",
+        "genres": "Comedy Drama",
+        "director": "Steve Buscemi",
+        "cast": "Steve Buscemi Chloë Sevigny Carol Kane Mark Boone Junior Bronson Dudley",
+        "overview": "Tommy has lost his job, his love and his life. He lives in a small apartment above the Trees Lounge, a bar which he frequents along with a few other regulars without lives. He gets a job driving an ice cream truck and ends up getting involved with the seventeen-year-old niece of his ex-girlfriend. This gets him into serious trouble with her father.",
+        "score": 0.39755678176879883
+      },
+      {
+        "movie_id": 10571,
+        "title": "Boys and Girls",
+        "year": "2000",
+        "genres": "Comedy Drama Romance",
+        "director": "Robert Iscove",
+        "cast": "Freddie Prinze Jr. Claire Forlani Jason Biggs Amanda Detmer Alyson Hannigan",
+        "overview": "Ryan and Jennifer are opposites who definitely do not attract. At least that's what they always believed. When they met as twelve-year-olds, they disliked one another. When they met again as teenagers, they loathed each other. But when they meet in college, the uptight Ryan and the free-spirited Jennifer find that their differences bind them together and a rare friendship develops.",
+        "score": 0.3970434069633484
+      },
+      {
+        "movie_id": 12658,
+        "title": "Someone Like You...",
+        "year": "2001",
+        "genres": "Comedy Romance",
+        "director": "Tony Goldwyn",
+        "cast": "Ashley Judd Greg Kinnear Hugh Jackman Marisa Tomei Ellen Barkin",
+        "overview": "Jane Goodale has everything going for her. She's a producer on a popular daytime talk show, and is in a hot romance with the show's dashing executive producer Ray. But when the relationship goes terribly awry, Jane begins an extensive study of the male animal, including her womanizing roommate Eddie. Jane puts her studies and romantic misadventure to use as a pseudonymous sex columnist -- and becomes a sensation.",
+        "score": 0.3941425681114197
+      },
+      {
+        "movie_id": 325133,
+        "title": "Neighbors 2: Sorority Rising",
+        "year": "2016",
+        "genres": "Comedy",
+        "director": "Nicholas Stoller",
+        "cast": "Seth Rogen Rose Byrne Zac Efron Chloë Grace Moretz Kiersey Clemons",
+        "overview": "A sorority moves in next door to the home of Mac and Kelly Radner who have a young child. The Radner's enlist their former nemeses from the fraternity to help battle the raucous sisters.",
+        "score": 0.39405643939971924
+      },
+      {
+        "movie_id": 50546,
+        "title": "Just Go with It",
+        "year": "2011",
+        "genres": "Romance Comedy",
+        "director": "Dennis Dugan",
+        "cast": "Adam Sandler Jennifer Aniston Nicole Kidman Nick Swardson Brooklyn Decker",
+        "overview": "A plastic surgeon, romancing a much younger schoolteacher, enlists his loyal assistant to pretend to be his soon to be ex-wife, in order to cover up a careless lie. When more lies backfire, the assistant's kids become involved, and everyone heads off for a weekend in Hawaii that will change all their lives.",
+        "score": 0.39314162731170654
       }
     ]
   }

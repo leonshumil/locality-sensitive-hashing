@@ -1,8 +1,5 @@
-// ── Fill in your TMDB API key to load movie poster images ─────────────────
-// Get a free key at https://www.themoviedb.org/settings/api
-const TMDB_API_KEY = '';
-
 // ── CONFIG ─────────────────────────────────────────────────────────────────
+// TMDB_API_KEY is defined in config.js, loaded before this script in index.html.
 const CONFIG = {
   API_URL:      'http://localhost:5000/search',
   TMDB_API_KEY,                                         // references the const above
@@ -156,7 +153,6 @@ async function renderResults(results, query, isDemo, matchedQuery = '') {
     return { card, movie };
   });
 
-  kValLabel.textContent = results.length;
   showResults();
   window.scrollTo({ top: resultsSection.offsetTop - 80, behavior: 'smooth' });
 
