@@ -1,0 +1,8 @@
+# Hugging Face Spaces dependencies.
+# Rename this file to requirements.txt when pushing to the HF Space repo.
+# Do NOT replace the project's existing requirements.txt with this file.
+gradio
+sentence-transformers
+numpy
+fastapi
+uvicorn

@@ -184,10 +184,8 @@ async function renderResults(results, query, isDemo, matchedQuery = '') {
   });
 
   showResults();
-  const gridTop      = resultsGrid.getBoundingClientRect().top + window.scrollY;
-  const centerOffset = (window.innerHeight - resultsGrid.offsetHeight) / 2;
-  const target       = Math.max(0, gridTop - centerOffset);
-  window.scrollTo({ top: target, behavior: 'smooth' });
+  const gridTop = resultsGrid.getBoundingClientRect().top + window.scrollY;
+  window.scrollTo({ top: Math.max(0, gridTop - window.innerHeight + 200), behavior: 'smooth' });
 
   // Animate score bars after paint
   requestAnimationFrame(() => {

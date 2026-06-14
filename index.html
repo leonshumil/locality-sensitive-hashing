@@ -126,49 +126,28 @@
           <div class="step-num" aria-hidden="true">01</div>
           <div class="step-body">
             <h3>Embed</h3>
-            <p>
-              Your query is encoded into a 384‑dimensional vector by
-              <strong>all‑MiniLM‑L6‑v2</strong>, a compact sentence‑transformer
-              trained on hundreds of millions of text pairs. Semantic relationships
-              become directions in this space: "space odyssey" and "interstellar
-              voyage" land near each other, even with no shared words.
-            </p>
+            <p>Your query is encoded into a <strong>384-dim vector</strong> by all-MiniLM-L6-v2. Similar meanings cluster together — no shared words needed.</p>
           </div>
         </li>
         <li class="step">
           <div class="step-num" aria-hidden="true">02</div>
           <div class="step-body">
             <h3>Hash</h3>
-            <p>
-              The vector is projected through <strong>20 random hyperplanes</strong>
-              (8 bits each). Each projection produces a short binary key — similar
-              vectors collide into the same bucket across multiple hash tables,
-              grouping candidate movies without looking at every embedding.
-            </p>
+            <p>The vector is projected through <strong>20 random hyperplanes</strong> (8 bits each). Similar vectors produce the same binary key and land in the same bucket.</p>
           </div>
         </li>
         <li class="step">
           <div class="step-num" aria-hidden="true">03</div>
           <div class="step-body">
             <h3>Retrieve</h3>
-            <p>
-              Only movies sharing at least one bucket with your query become
-              candidates — typically under 1 % of the 4,803‑film index. LSH
-              trades a small recall penalty for a <strong>massive speed-up</strong>
-              over exhaustive nearest‑neighbor search.
-            </p>
+            <p>Only bucket-matching movies become candidates — typically <strong>&lt;1 % of 4,803 films</strong>. No exhaustive search needed.</p>
           </div>
         </li>
         <li class="step">
           <div class="step-num" aria-hidden="true">04</div>
           <div class="step-body">
             <h3>Rank</h3>
-            <p>
-              Every candidate is precisely re‑scored by
-              <strong>cosine similarity</strong> between its precomputed embedding
-              and your query vector. The top‑K films ranked by that score are
-              what you see — exact, not approximate.
-            </p>
+            <p>Candidates are re-scored by <strong>cosine similarity</strong> to your query vector. The top-K results are exact, not approximate.</p>
           </div>
         </li>
       </ol>
