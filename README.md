@@ -111,3 +111,26 @@ Get a free TMDB key at [themoviedb.org/settings/api](https://www.themoviedb.org/
 ```
 
 Increasing `num_tables` improves recall; increasing `num_bits` reduces bucket collisions (sharper candidates).
+
+---
+
+## Known Limitations
+
+- **Abbreviations and acronyms** — queries like `"ww2"` give weak results because `all-MiniLM-L6-v2` was trained on full natural-language sentences, not shorthand. Prefer `"world war two"` over `"ww2"`.
+- **Single-word queries** — `"jedi"` alone carries little semantic signal; `"jedi knights space opera star wars"` works much better.
+- **Overview quality** — search quality is bounded by the movie overviews in `tmdb_data.json`. If a film's synopsis doesn't describe its themes well, it won't surface for relevant queries.
+- **LSH approximation** — in rare cases a highly relevant movie may be missed if it landed in a different bucket across all 20 hash tables.
+- **Cold starts** — the Hugging Face free tier sleeps after inactivity; the first search after idle may take 20–30 seconds.
+- **Movie posters** — require a personal TMDB API key. Without one, only the letter placeholder is shown.
+
+---
+
+## Future Improvements
+
+- **Query expansion** — automatically expand abbreviations and short queries before encoding (`"ww2"` → `"world war two"`, `"sci-fi"` → `"science fiction"`).
+- **Richer metadata embeddings** — encode a combined string of title + genres + director + cast + overview instead of the overview alone, for a fuller semantic representation.
+- **Hybrid search** — combine LSH semantic search with keyword BM25 scoring and merge ranked lists via reciprocal rank fusion for better recall on exact-name queries.
+- **User feedback loop** — thumbs up/down on results to log query–result pairs and fine-tune the encoder over time.
+- **Filters** — genre, year range, and minimum rating filters applied on top of semantic search results.
+- **Larger dataset** — extend beyond 4,803 films to the full TMDB catalog (~900,000 movies).
+- **Better encoder** — replace `all-MiniLM-L6-v2` with a larger model such as `all-mpnet-base-v2` or a multilingual variant for improved embedding quality.
