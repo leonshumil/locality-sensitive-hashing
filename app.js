@@ -1,7 +1,7 @@
 // ── CONFIG ─────────────────────────────────────────────────────────────────
 // TMDB_API_KEY is defined in config.js, loaded before this script in index.html.
 const CONFIG = {
-  API_URL:      'http://localhost:5000/search',
+  API_URL:      'https://leons98-cinematch.hf.space/api/search',
   TMDB_API_KEY,                                         // references the const above
   TMDB_IMG:     'https://image.tmdb.org/t/p/w342',
   TMDB_DETAILS: 'https://api.themoviedb.org/3/movie',
@@ -70,8 +70,9 @@ async function handleSearch(query, k) {
       await renderResults(results, query, true, matchedQuery);
     } catch {
       showError(
-        'Could not reach the local server and demo_results.json failed to load. ' +
-        'Run "python server.py" to enable live search.'
+        'Could not load results. The search Space may be unreachable and ' +
+        'demo_results.json failed to load. Try again or visit ' +
+        'https://leons98-cinematch.hf.space directly.'
       );
     }
   } finally {
@@ -80,15 +81,20 @@ async function handleSearch(query, k) {
 }
 
 async function tryApiSearch(query, k) {
-  const res = await fetch(CONFIG.API_URL, {
-    method:  'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body:    JSON.stringify({ query, k }),
-    signal:  AbortSignal.timeout(8000),
-  });
-  if (!res.ok) throw new Error('API error ' + res.status);
-  const data = await res.json();
-  return data.results;
+  // Show a "cold start" warning after 5 s — HF Spaces can take ~30 s to wake.
+  const wakeTimer = setTimeout(() => {
+    setSpinnerMsg('Waking up the AI model, first search takes ~30 seconds…');
+  }, 5000);
+
+  try {
+    const url = `${CONFIG.API_URL}?query=${encodeURIComponent(query)}&k=${k}`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(60000) });
+    if (!res.ok) throw new Error('API error ' + res.status);
+    const data = await res.json();
+    return data.results;
+  } finally {
+    clearTimeout(wakeTimer);
+  }
 }
 
 async function loadDemoResults(query, k) {
@@ -284,7 +290,11 @@ function escapeHtml(str) {
 }
 
 // ── UI STATE ───────────────────────────────────────────────────────────────
-function showSpinner()  { spinner.classList.remove('hidden'); }
+function setSpinnerMsg(msg) {
+  const el = spinner.querySelector('.spinner-text');
+  if (el) el.textContent = msg;
+}
+function showSpinner()  { setSpinnerMsg('Encoding your query…'); spinner.classList.remove('hidden'); }
 function hideSpinner()  { spinner.classList.add('hidden'); }
 function showResults()  { resultsSection.classList.remove('hidden'); }
 function hideResults()  { resultsSection.classList.add('hidden'); }
